@@ -1,49 +1,62 @@
 # Sebastián Elgueta Godoy
 
-**Sociologist | Public Affairs | Public Policy | Digital Infrastructure | Data Centers | Telecommunications**
+**Sociologist | Public Affairs | Public Policy | Digital Infrastructure | Data Centers | Telecommunications | Latin America**
 
-Santiago, Chile · GitHub: [@selguetagodoy](https://github.com/selguetagodoy)
+📍 Santiago, Chile  
+🔗 [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy) · [Coordenadas Públicas](https://www.coordenadaspublicas.cl/nosotros/) · [GitHub](https://github.com/selguetagodoy)
 
-I am a Chilean sociologist and public affairs professional with more than 13 years of experience across public policy, telecommunications, technology, digital infrastructure, territorial development and strategic consulting.
+## About
 
-My work focuses on the intersection between **public policy, regulation, infrastructure and digital transformation**, with particular interest in **data centers, telecommunications, connectivity, digital inclusion, investment, permitting and regional competitiveness in Latin America**.
+I am **Sebastián Elgueta Godoy**, a Chilean sociologist and public affairs professional with more than 13 years of experience across public policy, telecommunications, regulation, technology, digital infrastructure, territorial development and strategic consulting.
 
-## Areas of work
+My work sits at the intersection of **public policy, regulation, infrastructure, investment and territory**. I focus particularly on **data centers, telecommunications, connectivity, digital inclusion, digital transformation and the competitiveness of digital infrastructure in Chile and Latin America**.
+
+I combine institutional and regulatory analysis with data-driven research, longitudinal indicators, territorial analysis and international benchmarking to support public and private decision-making.
+
+## Areas of expertise
 
 - Public affairs and institutional relations
 - Public policy and regulatory analysis
 - Digital infrastructure and data centers
-- Telecommunications and connectivity
+- Telecommunications, broadband and connectivity
 - Digital inclusion and digital transformation
-- Infrastructure, investment and territorial development
+- Infrastructure investment and territorial development
+- Permitting, regulatory environments and project viability
 - Strategic research, benchmarking and evidence-based analysis
-- Latin America and international comparative analysis
+- Data analysis and open public datasets
+- Chile and Latin America comparative analysis
 
-## Background
+## Professional background
 
-I have worked in Chile's telecommunications public sector, legislative advisory roles and consulting, including projects involving regulation, infrastructure, technology, public policy and institutional strategy.
+My career includes experience in Chile's telecommunications public sector, legislative advisory work and strategic consulting. I have worked on regulation, infrastructure, connectivity, public policy, institutional strategy and territorial analysis, including projects that require coordination between government, companies, communities and other stakeholders.
 
-My academic background includes Sociology and graduate studies in urban and regional project management, political communication and public affairs.
+My academic background includes **Sociology**, graduate studies in **Urban and Regional Project Management**, and **Political Communication and Public Affairs**.
 
-## Selected public projects
+## Research and public projects
 
 ### [Latin America Digital Infrastructure](https://github.com/selguetagodoy/latin-america-digital-infrastructure)
-Research and comparative analysis related to digital infrastructure, connectivity and the development of digital ecosystems in Latin America.
+Open, source-backed comparative research on digital infrastructure in Latin America, including data centers, cloud regions, Internet exchange points, submarine connectivity, energy and market indicators.
 
 ### [Chile Digital Inclusion](https://github.com/selguetagodoy/Chile-Digital-Inclusion)
-Data and analysis focused on digital inclusion, connectivity and territorial gaps in Chile.
+Open data and reproducible analysis on digital inclusion, connectivity, broadband, territorial gaps, digital skills and network infrastructure in Chile.
 
-### [Atlas de Desconexión Digital de Chile](https://github.com/selguetagodoy/atlas-desconexion-digital-chile.)
-A territorial perspective on digital connectivity gaps and exclusion in Chile.
+### [Atlas de la Desconexión Digital de Chile](https://github.com/selguetagodoy/atlas-desconexion-digital-chile.)
+Territorial analysis of digital exclusion in Chile, distinguishing the intensity of connectivity gaps from their social scale across municipalities.
 
-### [Ookla](https://github.com/selguetagodoy/Ookla)
-Work with broadband and connectivity data for territorial and comparative analysis.
+### [Internet Speeds — Chile, Colombia and international comparators](https://github.com/selguetagodoy/Ookla)
+Longitudinal analysis of fixed and mobile Internet performance using public Akamai and Ookla evidence while preserving methodological breaks and missing values.
 
-## Current interests
+## Current research interests
 
-I am particularly interested in how countries and cities compete for digital infrastructure investment and how **energy, regulation, permitting, connectivity, taxation, talent and territorial conditions** shape the development of data centers and other strategic digital infrastructure.
+I am particularly interested in how countries and cities compete for digital infrastructure investment and how **energy, regulation, permitting, connectivity, taxation, talent, costs and territorial conditions** influence the development of data centers and other strategic infrastructure.
 
-I also work on methods for combining public datasets, longitudinal indicators and comparative evidence to support policy and investment decisions.
+I also work on **digital inclusion, broadband markets, regulatory modernization, open data and reproducible comparative research**, with an emphasis on building evidence that can be traced back to public and primary sources.
+
+## En español
+
+Soy **Sebastián Elgueta Godoy**, sociólogo y consultor en asuntos públicos, políticas públicas, regulación e infraestructura digital en Chile. Mi trabajo se concentra en telecomunicaciones, data centers, conectividad, inclusión digital, transformación digital, inversión, territorio y análisis comparado de América Latina.
+
+Desarrollo investigación aplicada y análisis estratégico utilizando datos públicos, series longitudinales, benchmarking internacional y análisis territorial para comprender cómo las condiciones regulatorias, institucionales, económicas y de infraestructura inciden en el desarrollo digital.
 
 ## Languages
 
