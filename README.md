@@ -3,7 +3,11 @@
 **Sociologist | Public Affairs | Public Policy | Digital Infrastructure | Data Centers | Telecommunications | Latin America**
 
 📍 Santiago, Chile  
-🔗 [Official website](https://selguetagodoy.github.io/) · [Professional profile](https://selguetagodoy.github.io/latin-america-digital-infrastructure/sebastian-elgueta-godoy.html) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy) · [Coordenadas Públicas](https://www.coordenadaspublicas.cl/nosotros/) · [Digital Infrastructure Observatory](https://selguetagodoy.github.io/latin-america-digital-infrastructure/) · [GitHub](https://github.com/selguetagodoy)
+🔗 [Official website](https://selguetagodoy.github.io/) · [Portfolio](https://sites.google.com/view/sebastianelguetagodoy) · [WordPress](https://sebastianelguetagodoy.wordpress.com/) · [Web directory](https://selguetagodoy.github.io/en-la-web.html) · [Professional profile](https://selguetagodoy.github.io/latin-america-digital-infrastructure/sebastian-elgueta-godoy.html) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy) · [Coordenadas Públicas](https://www.coordenadaspublicas.cl/nosotros/) · [Digital Infrastructure Observatory](https://selguetagodoy.github.io/latin-america-digital-infrastructure/) · [GitHub](https://github.com/selguetagodoy)
+
+## Public profiles
+
+[Official website](https://selguetagodoy.github.io/) · [Google Sites portfolio](https://sites.google.com/view/sebastianelguetagodoy) · [WordPress](https://sebastianelguetagodoy.wordpress.com/) · [Academia.edu](https://uai.academia.edu/ElguetaGodoy) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy)
 
 ## About
 
