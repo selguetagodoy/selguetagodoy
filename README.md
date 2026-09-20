@@ -41,6 +41,9 @@ My academic background includes **Sociology**, graduate studies in **Urban and R
 ### [Latin America Digital Infrastructure](https://github.com/selguetagodoy/latin-america-digital-infrastructure)
 Open, source-backed comparative research on digital infrastructure in Latin America, including data centers, cloud regions, Internet exchange points, submarine connectivity, energy and market indicators. [Explore the public observatory →](https://selguetagodoy.github.io/latin-america-digital-infrastructure/)
 
+### [Chile State Institutional Map](https://github.com/selguetagodoy/latin-america-digital-infrastructure/tree/main/public-affairs/chile-state-institutional-map)
+Open institutional dataset for public affairs and stakeholder mapping in Chile. It structures ministries, public services, subsecretariats, regional governments, presidential delegations, municipalities and superior State bodies with source and coverage controls.
+
 ### [Chile Digital Inclusion](https://github.com/selguetagodoy/Chile-Digital-Inclusion)
 Open data and reproducible analysis on digital inclusion, connectivity, broadband, territorial gaps, digital skills and network infrastructure in Chile.
 
