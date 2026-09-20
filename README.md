@@ -44,6 +44,9 @@ Open, source-backed comparative research on digital infrastructure in Latin Amer
 ### [Chile State Institutional Map](https://github.com/selguetagodoy/chile-state-institutional-map-)
 Open institutional dataset for public affairs and stakeholder mapping in Chile. It structures ministries, public services, subsecretariats, regional governments, presidential delegations, municipalities and superior State bodies with source and coverage controls.
 
+### [Stakeholder Routes Chile](https://github.com/selguetagodoy/stakeholder_routes_Chile)
+Open decision-route dataset for public affairs in Chile, mapping regulatory and investment pathways by actor, stage, competence, conditionality and decision point.
+
 ### [Chile Digital Inclusion](https://github.com/selguetagodoy/Chile-Digital-Inclusion)
 Open data and reproducible analysis on digital inclusion, connectivity, broadband, territorial gaps, digital skills and network infrastructure in Chile.
 
