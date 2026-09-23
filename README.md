@@ -34,7 +34,7 @@ I combine institutional and regulatory analysis with data-driven research, longi
 
 My career includes experience in Chile's telecommunications public sector, legislative advisory work and strategic consulting. I have worked on regulation, infrastructure, connectivity, public policy, institutional strategy and territorial analysis, including projects that require coordination between government, companies, communities and other stakeholders.
 
-My academic background includes **Sociology**, graduate studies in **Urban and Regional Project Management**, and **Political Communication and Public Affairs**.
+My academic background includes a degree in **Sociology**, a **Master's degree in Urban and Regional Project Management**, and a **Master's degree in Political Communication and Public Affairs**.
 
 ## Research and public projects
 
