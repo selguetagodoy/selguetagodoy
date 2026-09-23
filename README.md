@@ -36,6 +36,14 @@ My career includes experience in Chile's telecommunications public sector, legis
 
 My academic background includes a degree in **Sociology**, a **Master's degree in Urban and Regional Project Management**, and a **Master's degree in Political Communication and Public Affairs**.
 
+## Selected academic work
+
+### [Una radiografía territorial del acceso, la fragilidad digital y el nuevo Índice de Vulnerabilidad Digital](https://www.academia.edu/176096186/Una_radiograf%C3%ADa_territorial_del_acceso_la_fragilidad_digital_y_el_nuevo_%C3%8Dndice_de_Vulnerabilidad_Digital)
+
+Academic document by **Sebastián Elgueta Godoy** associated with the *Atlas de la Desconexión Digital de Chile 2026*. The public Academia.edu record lists **169 pages** and describes a territorial framework integrating Internet access, connection quality, device availability, socioeconomic conditions and digital fragility, including the **Índice de Vulnerabilidad Digital**.
+
+[Digital Vulnerability Index →](https://selguetagodoy.github.io/indice-vulnerabilidad-digital-chile.html) · [Atlas →](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html) · [DOI →](https://doi.org/10.5281/zenodo.22921208)
+
 ## Research and public projects
 
 ### [Latin America Digital Infrastructure](https://github.com/selguetagodoy/latin-america-digital-infrastructure)
