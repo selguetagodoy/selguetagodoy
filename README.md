@@ -7,7 +7,7 @@
 
 ## Public profiles
 
-[Official website](https://selguetagodoy.github.io/) · [Google Sites portfolio](https://sites.google.com/view/sebastianelguetagodoy) · [Gamma microsite](https://gamma.app/docs/Sebastian-Elgueta-Godoy-Public-Affairs-Digital-Infrastructure-Res-6kksqeeykbp631f) · [WordPress](https://sebastianelguetagodoy.wordpress.com/) · [Academia.edu](https://uai.academia.edu/ElguetaGodoy) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy)
+[Official website](https://selguetagodoy.github.io/) · [Verified web directory](https://selguetagodoy.github.io/en-la-web.html) · [Google Sites portfolio](https://sites.google.com/view/sebastianelguetagodoy) · [Gamma microsite](https://gamma.app/docs/Sebastian-Elgueta-Godoy-Public-Affairs-Digital-Infrastructure-Res-6kksqeeykbp631f) · [WordPress](https://sebastianelguetagodoy.wordpress.com/) · [Academia.edu](https://uai.academia.edu/ElguetaGodoy) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy)
 
 ## About
 
