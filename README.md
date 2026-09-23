@@ -56,6 +56,15 @@ Territorial analysis of digital exclusion in Chile, distinguishing the intensity
 ### [Internet Speeds — Chile, Colombia and international comparators](https://github.com/selguetagodoy/Ookla)
 Longitudinal analysis of fixed and mobile Internet performance using public Akamai and Ookla evidence while preserving methodological breaks and missing values.
 
+## Citable research releases
+
+- [Latin America Digital Infrastructure](https://doi.org/10.5281/zenodo.22921174) — concept DOI for the versioned Zenodo archive.
+- [Chile Digital Inclusion](https://doi.org/10.5281/zenodo.22921190) — concept DOI for the versioned Zenodo archive.
+- [Atlas de la Desconexión Digital de Chile](https://doi.org/10.5281/zenodo.22921208) — concept DOI.
+- [Internet Speeds and Connectivity](https://doi.org/10.5281/zenodo.22921202) — concept DOI.
+- [Chile State Institutional Map](https://doi.org/10.5281/zenodo.22921220) — concept DOI.
+- [Stakeholder Routes Chile](https://doi.org/10.5281/zenodo.22921233) — concept DOI.
+
 ## Current research interests
 
 I am particularly interested in how countries and cities compete for digital infrastructure investment and how **energy, regulation, permitting, connectivity, taxation, talent, costs and territorial conditions** influence the development of data centers and other strategic infrastructure.
