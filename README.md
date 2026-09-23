@@ -42,7 +42,7 @@ My academic background includes a degree in **Sociology**, a **Master's degree i
 
 Academic document by **Sebastián Elgueta Godoy** associated with the *Atlas de la Desconexión Digital de Chile 2026*. The public Academia.edu record lists **169 pages** and describes a territorial framework integrating Internet access, connection quality, device availability, socioeconomic conditions and digital fragility, including the **Índice de Vulnerabilidad Digital**.
 
-[Digital Vulnerability Index →](https://selguetagodoy.github.io/indice-vulnerabilidad-digital-chile.html) · [Atlas →](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html) · [DOI →](https://doi.org/10.5281/zenodo.22921208)
+[Digital Vulnerability Index →](https://selguetagodoy.github.io/indice-vulnerabilidad-digital-chile.html) · [Academia.edu →](https://www.academia.edu/176096186/Una_radiograf%C3%ADa_territorial_del_acceso_la_fragilidad_digital_y_el_nuevo_%C3%8Dndice_de_Vulnerabilidad_Digital) · [ResearchGate →](https://www.researchgate.net/publication/414679752_Una_radiografia_territorial_del_acceso_la_fragilidad_digital_y_el_nuevo_Indice_de_Vulnerabilidad_Digital) · [Atlas →](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html) · [DOI →](https://doi.org/10.5281/zenodo.22921208)
 
 ## Research and public projects
 
