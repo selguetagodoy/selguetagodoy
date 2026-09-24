@@ -3,7 +3,7 @@
 **Sociologist | Public Affairs | Public Policy | Digital Infrastructure | Data Centers | Telecommunications | Latin America**
 
 📍 Santiago, Chile  
-🌐 [Official website](https://selguetagodoy.github.io/) · [Professional bio](https://selguetagodoy.github.io/bio.html) · [Research projects](https://selguetagodoy.github.io/proyectos.html) · [Publications](https://selguetagodoy.github.io/publicaciones.html) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy) · [Substack](https://substack.com/@sebastianelguetagodoy) · [Coordenadas Públicas](https://www.coordenadaspublicas.cl/nosotros/)
+🌐 [Official website](https://selguetagodoy.github.io/) · [Professional bio](https://selguetagodoy.github.io/bio.html) · [Research projects](https://selguetagodoy.github.io/proyectos.html) · [Publications](https://selguetagodoy.github.io/publicaciones.html) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy) · [Facebook](https://www.facebook.com/sebagodoyelgueta/) · [Substack](https://substack.com/@sebastianelguetagodoy) · [Coordenadas Públicas](https://www.coordenadaspublicas.cl/nosotros/)
 
 ## Public profiles
 
