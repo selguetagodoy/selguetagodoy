@@ -36,6 +36,14 @@ My career includes experience in Chile's telecommunications public sector, legis
 
 My academic background includes a degree in **Sociology**, a **Master's degree in Urban and Regional Project Management**, and a **Master's degree in Political Communication and Public Affairs**.
 
+## LinkedIn analysis
+
+Public analysis on telecommunications, regulation, connectivity, data centers, digital infrastructure and public policy is indexed here:
+
+[LinkedIn publications archive →](https://selguetagodoy.github.io/linkedin-publicaciones.html)
+
+[LinkedIn profile →](https://cl.linkedin.com/in/sebastian-elgueta-godoy)
+
 ## Selected academic work
 
 ### [Una radiografía territorial del acceso, la fragilidad digital y el nuevo Índice de Vulnerabilidad Digital](https://www.academia.edu/176096186/Una_radiograf%C3%ADa_territorial_del_acceso_la_fragilidad_digital_y_el_nuevo_%C3%8Dndice_de_Vulnerabilidad_Digital)
