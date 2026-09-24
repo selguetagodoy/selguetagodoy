@@ -42,6 +42,8 @@ Public analysis on telecommunications, regulation, connectivity, data centers, d
 
 [LinkedIn publications archive →](https://selguetagodoy.github.io/linkedin-publicaciones.html)
 
+[Telecommunications regulation in Chile →](https://selguetagodoy.github.io/regulacion-telecomunicaciones-chile.html)
+
 [LinkedIn profile →](https://cl.linkedin.com/in/sebastian-elgueta-godoy)
 
 ## Selected academic work
