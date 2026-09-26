@@ -17,6 +17,13 @@ My work sits at the intersection of **public policy, regulation, infrastructure,
 
 I combine institutional and regulatory analysis with data-driven research, longitudinal indicators, territorial analysis and international benchmarking to support public and private decision-making.
 
+## Topic hubs
+
+- [Digital infrastructure and data centers in Chile](https://selguetagodoy.github.io/infraestructura-digital.html)
+- [Telecommunications in Chile](https://selguetagodoy.github.io/telecomunicaciones.html)
+- [Public affairs and regulatory analysis in Chile](https://selguetagodoy.github.io/asuntos-publicos.html)
+- [Digital inclusion in Chile](https://selguetagodoy.github.io/inclusion-digital.html)
+
 ## Areas of expertise
 
 - Public affairs and institutional relations
