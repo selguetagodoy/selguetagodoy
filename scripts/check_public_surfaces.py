@@ -17,6 +17,7 @@ SURFACES = {
     "profile.md": "https://selguetagodoy.github.io/profile.md",
     "publications.md": "https://selguetagodoy.github.io/publications.md",
     "datos-abiertos.html": "https://selguetagodoy.github.io/datos-abiertos.html",
+    "datasets.json": "https://selguetagodoy.github.io/datasets.json",
     "investigacion.html": "https://selguetagodoy.github.io/investigacion.html",
     "publicaciones.html": "https://selguetagodoy.github.io/publicaciones.html",
 }
@@ -51,7 +52,7 @@ def main() -> int:
         version_doi = project["version_doi"]
         title = project["title"]
 
-        for surface in ("llms.txt", "research.md", "profile.md", "publications.md", "datos-abiertos.html", "investigacion.html"):
+        for surface in ("llms.txt", "research.md", "profile.md", "publications.md", "datos-abiertos.html", "datasets.json", "investigacion.html"):
             text = downloaded[surface]
             if landing not in text and landing.removeprefix("https://selguetagodoy.github.io/") not in text:
                 failures.append(f"{pid}: canonical landing missing from {surface}")
@@ -62,6 +63,8 @@ def main() -> int:
             failures.append(f"{pid}: version DOI missing from profile.md")
         if version_doi not in downloaded["publications.md"]:
             failures.append(f"{pid}: version DOI missing from publications.md")
+        if version_doi not in downloaded["datasets.json"]:
+            failures.append(f"{pid}: version DOI missing from datasets.json")
         if title not in downloaded["llms.txt"]:
             failures.append(f"{pid}: project title missing from llms.txt")
 
