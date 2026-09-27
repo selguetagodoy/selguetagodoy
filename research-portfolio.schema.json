@@ -60,7 +60,8 @@
           "latest_citable_version",
           "latest_git_release_url",
           "latest_citable_release_url",
-          "citation"
+          "citation",
+          "data_package"
         ],
         "properties": {
           "id": {
@@ -139,6 +140,10 @@
               }
             },
             "additionalProperties": false
+          },
+          "data_package": {
+            "type": "string",
+            "format": "uri"
           }
         },
         "additionalProperties": false
