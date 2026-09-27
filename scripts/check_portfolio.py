@@ -13,6 +13,14 @@ SCHEMA = ROOT / "research-portfolio.schema.json"
 JSONLD = ROOT / "research-portfolio.jsonld"
 USER_AGENT = "Mozilla/5.0 (compatible; SEGPortfolioCheck/1.1; +https://selguetagodoy.github.io/)"
 
+REQUIRED_INTERFACES = {
+    "research_overview",
+    "open_data_catalog",
+    "public_dataset_json",
+    "methodology",
+    "research_status",
+}
+
 REQUIRED_PROJECT_FIELDS = {
     "id",
     "title",
@@ -74,6 +82,19 @@ def main() -> int:
     payload = json.loads(PORTFOLIO.read_text(encoding="utf-8"))
     schema = json.loads(SCHEMA.read_text(encoding="utf-8"))
     jsonld = json.loads(JSONLD.read_text(encoding="utf-8"))
+
+    interfaces = payload.get("interfaces", {})
+    missing_interfaces = REQUIRED_INTERFACES - set(interfaces)
+    if missing_interfaces:
+        failures.append(f"portfolio interfaces missing: {sorted(missing_interfaces)}")
+    for key in sorted(REQUIRED_INTERFACES & set(interfaces)):
+        label, detail = check(interfaces[key])
+        checked += 1
+        print(f"{label} interface {key} — {detail} — {interfaces[key]}")
+        if label == "DEAD":
+            failures.append(f"interface {key}: {detail}")
+        elif label == "WARN":
+            warnings.append(f"interface {key}: {detail}")
 
     projects = payload.get("projects", [])
     if len(projects) != 6:
@@ -153,6 +174,29 @@ def main() -> int:
                 warnings.append(f"{pid} {field}: {detail}")
 
     graph = jsonld.get("@graph", [])
+    catalog_nodes = [node for node in graph if node.get("@type") == "DataCatalog"]
+    if len(catalog_nodes) != 1:
+        failures.append(f"JSON-LD DataCatalog count {len(catalog_nodes)} != 1")
+    else:
+        catalog = catalog_nodes[0]
+        if catalog.get("url") != interfaces.get("open_data_catalog"):
+            failures.append("JSON-LD DataCatalog URL mismatch")
+        catalog_ids = {
+            item.get("@id")
+            for item in catalog.get("dataset", [])
+            if isinstance(item, dict)
+        }
+        expected_catalog_ids = {
+            (
+                f"{project['landing']}#atlas"
+                if project["id"] == "atlas-desconexion-digital-chile"
+                else f"{project['landing']}#dataset"
+            )
+            for project in projects
+        }
+        if catalog_ids != expected_catalog_ids:
+            failures.append("JSON-LD DataCatalog dataset membership mismatch")
+
     dataset_nodes = [node for node in graph if node.get("@type") == "Dataset"]
     if len(dataset_nodes) != len(projects):
         failures.append(
