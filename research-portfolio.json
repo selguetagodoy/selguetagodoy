@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "author": {
+    "name": "Sebastián Elgueta Godoy",
+    "canonical_url": "https://selguetagodoy.github.io/",
+    "github": "https://github.com/selguetagodoy"
+  },
+  "last_updated": "2026-09-27",
+  "projects": [
+    {
+      "id": "latin-america-digital-infrastructure",
+      "title": "Latin America Digital Infrastructure",
+      "type": "dataset",
+      "scope": "Latin America",
+      "landing": "https://selguetagodoy.github.io/dataset-latin-america-digital-infrastructure.html",
+      "repository": "https://github.com/selguetagodoy/latin-america-digital-infrastructure",
+      "concept_doi": "https://doi.org/10.5281/zenodo.22921174",
+      "version_doi": "https://doi.org/10.5281/zenodo.22921175"
+    },
+    {
+      "id": "chile-digital-inclusion",
+      "title": "Chile Digital Inclusion",
+      "type": "dataset",
+      "scope": "Chile",
+      "landing": "https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html",
+      "repository": "https://github.com/selguetagodoy/Chile-Digital-Inclusion",
+      "concept_doi": "https://doi.org/10.5281/zenodo.22921190",
+      "version_doi": "https://doi.org/10.5281/zenodo.22921191"
+    },
+    {
+      "id": "atlas-desconexion-digital-chile",
+      "title": "Atlas de la Desconexión Digital de Chile 2026",
+      "type": "dataset",
+      "scope": "Chile",
+      "landing": "https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html",
+      "repository": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile.",
+      "concept_doi": "https://doi.org/10.5281/zenodo.22921208",
+      "version_doi": "https://doi.org/10.5281/zenodo.22921209"
+    },
+    {
+      "id": "internet-speeds",
+      "title": "Velocidades de Internet — Chile, Colombia y comparadores internacionales",
+      "type": "dataset",
+      "scope": "Chile; Colombia; international comparators",
+      "landing": "https://selguetagodoy.github.io/dataset-velocidades-internet.html",
+      "repository": "https://github.com/selguetagodoy/Ookla",
+      "concept_doi": "https://doi.org/10.5281/zenodo.22921202",
+      "version_doi": "https://doi.org/10.5281/zenodo.22921203"
+    },
+    {
+      "id": "chile-state-institutional-map",
+      "title": "Chile State Institutional Map",
+      "type": "dataset",
+      "scope": "Chile",
+      "landing": "https://selguetagodoy.github.io/dataset-chile-state-institutional-map.html",
+      "repository": "https://github.com/selguetagodoy/chile-state-institutional-map-",
+      "concept_doi": "https://doi.org/10.5281/zenodo.22921220",
+      "version_doi": "https://doi.org/10.5281/zenodo.22921221"
+    },
+    {
+      "id": "stakeholder-routes-chile",
+      "title": "Stakeholder Routes Chile",
+      "type": "dataset",
+      "scope": "Chile",
+      "landing": "https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html",
+      "repository": "https://github.com/selguetagodoy/stakeholder_routes_Chile",
+      "concept_doi": "https://doi.org/10.5281/zenodo.22921233",
+      "version_doi": "https://doi.org/10.5281/zenodo.22921234"
+    }
+  ]
+}
