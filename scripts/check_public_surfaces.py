@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import json
 import sys
+import time
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -24,10 +25,25 @@ SURFACES = {
 }
 
 
-def get(url: str) -> str:
-    req = Request(url, headers={"User-Agent": UA})
-    with urlopen(req, timeout=25) as response:
-        return response.read().decode("utf-8", errors="replace")
+def get(url: str, attempts: int = 4) -> str:
+    last_error: Exception | None = None
+    for attempt in range(1, attempts + 1):
+        req = Request(url, headers={"User-Agent": UA})
+        try:
+            with urlopen(req, timeout=25) as response:
+                return response.read().decode("utf-8", errors="replace")
+        except HTTPError as exc:
+            last_error = exc
+            retryable = exc.code in {404, 500, 502, 503, 504}
+            if not retryable or attempt == attempts:
+                raise
+        except URLError as exc:
+            last_error = exc
+            if attempt == attempts:
+                raise
+        time.sleep(attempt * 3)
+    assert last_error is not None
+    raise last_error
 
 
 def main() -> int:
