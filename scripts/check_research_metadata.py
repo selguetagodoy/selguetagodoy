@@ -17,6 +17,23 @@ def get(url: str) -> str:
     with urlopen(req, timeout=25) as response:
         return response.read().decode("utf-8")
 
+def exists(url: str) -> bool:
+    req = Request(url, headers={"User-Agent": UA}, method="HEAD")
+    try:
+        with urlopen(req, timeout=20) as response:
+            return 200 <= response.status < 400
+    except HTTPError as exc:
+        if exc.code in {405, 501}:
+            req = Request(url, headers={"User-Agent": UA, "Range": "bytes=0-0"}, method="GET")
+            try:
+                with urlopen(req, timeout=20) as response:
+                    return 200 <= response.status < 400
+            except (HTTPError, URLError):
+                return False
+        return False
+    except URLError:
+        return False
+
 def github_raw(repository: str, path: str) -> str:
     owner_repo = repository.removeprefix("https://github.com/").rstrip("/")
     return f"https://raw.githubusercontent.com/{owner_repo}/main/{path}"
@@ -36,6 +53,7 @@ def main() -> int:
         "CONTRIBUTING.md",
         ".github/ISSUE_TEMPLATE/evidence-correction.yml",
         ".github/pull_request_template.md",
+        "datapackage.json",
     )
 
     for project in payload["projects"]:
@@ -68,7 +86,7 @@ def main() -> int:
                 failures.append(f"{pid}: cannot read {filename}: {exc}")
                 continue
 
-            if filename in {"SOURCE_OF_TRUTH.md", "NOTICE.md", "CHANGELOG.md"}:
+            if filename in {"SOURCE_OF_TRUTH.md", "NOTICE.md", "CHANGELOG.md", "CONTRIBUTING.md", ".github/ISSUE_TEMPLATE/evidence-correction.yml", ".github/pull_request_template.md"}:
                 continue
 
             if filename == "CITATION.cff":
@@ -100,12 +118,51 @@ def main() -> int:
                 if doi not in content:
                     failures.append(f"{pid}: CITATION.bib missing version DOI")
 
-    print(f"Research metadata consistency: {len(payload['projects'])} projects · {checks} metadata files checked.")
+            elif filename == "datapackage.json":
+                try:
+                    package = json.loads(content)
+                except json.JSONDecodeError as exc:
+                    failures.append(f"{pid}: invalid datapackage.json: {exc}")
+                    continue
+
+                if package.get("profile") != "data-package":
+                    failures.append(f"{pid}: datapackage profile must be data-package")
+                if package.get("homepage") != landing:
+                    failures.append(f"{pid}: datapackage homepage mismatch")
+
+                expected_version = expected_latest.removeprefix("v") if expected_latest else None
+                if expected_version and package.get("version") != expected_version:
+                    failures.append(
+                        f"{pid}: datapackage version {package.get('version')!r} != latest GitHub release {expected_version!r}"
+                    )
+
+                resources = package.get("resources", [])
+                if not resources:
+                    failures.append(f"{pid}: datapackage has no resources")
+                    continue
+
+                seen_names: set[str] = set()
+                for resource in resources:
+                    name = resource.get("name")
+                    path = resource.get("path")
+                    if not name or not path:
+                        failures.append(f"{pid}: datapackage resource missing name/path")
+                        continue
+                    if name in seen_names:
+                        failures.append(f"{pid}: duplicate datapackage resource name {name!r}")
+                    seen_names.add(name)
+
+                    resource_url = github_raw(repo, path)
+                    checks += 1
+                    if not exists(resource_url):
+                        failures.append(f"{pid}: datapackage resource not found — {path}")
+
+    print(f"Research metadata consistency: {len(payload['projects'])} projects · {checks} metadata/resource checks.")
     if failures:
         for failure in failures:
             print("ERROR:", failure)
         return 1
-    print("OK: CFF, BibTeX and CodeMeta align with the canonical portfolio.")
+    print("OK: citation metadata, research package and declared public resources align with the canonical portfolio.")
     return 0
 
 if __name__ == "__main__":
