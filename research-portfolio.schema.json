@@ -169,7 +169,9 @@
         "public_dataset_json",
         "methodology",
         "research_status",
-        "research_jsonld"
+        "research_jsonld",
+        "atom_feed",
+        "json_feed"
       ],
       "properties": {
         "research_overview": {
@@ -193,6 +195,14 @@
           "format": "uri"
         },
         "research_jsonld": {
+          "type": "string",
+          "format": "uri"
+        },
+        "atom_feed": {
+          "type": "string",
+          "format": "uri"
+        },
+        "json_feed": {
           "type": "string",
           "format": "uri"
         }
