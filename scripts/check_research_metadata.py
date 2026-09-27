@@ -55,6 +55,7 @@ def main() -> int:
         ".github/pull_request_template.md",
         "datapackage.json",
         "RELEASE_POLICY.md",
+        "PUBLIC_RESOURCES.md",
     )
 
     for project in payload["projects"]:
@@ -100,7 +101,7 @@ def main() -> int:
                 failures.append(f"{pid}: cannot read {filename}: {exc}")
                 continue
 
-            if filename in {"SOURCE_OF_TRUTH.md", "NOTICE.md", "CHANGELOG.md", "CONTRIBUTING.md", "RELEASE_POLICY.md", ".github/ISSUE_TEMPLATE/evidence-correction.yml", ".github/pull_request_template.md"}:
+            if filename in {"SOURCE_OF_TRUTH.md", "NOTICE.md", "CHANGELOG.md", "CONTRIBUTING.md", "RELEASE_POLICY.md", "PUBLIC_RESOURCES.md", ".github/ISSUE_TEMPLATE/evidence-correction.yml", ".github/pull_request_template.md"}:
                 continue
 
             if filename == "CITATION.cff":
