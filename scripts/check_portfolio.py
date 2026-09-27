@@ -20,6 +20,8 @@ REQUIRED_INTERFACES = {
     "methodology",
     "research_status",
     "research_jsonld",
+    "atom_feed",
+    "json_feed",
 }
 
 REQUIRED_PROJECT_FIELDS = {
