@@ -1,113 +1,89 @@
 # Sebastián Elgueta Godoy
 
-**Sociologist | Public Affairs | Public Policy | Digital Infrastructure | Data Centers | Telecommunications | Latin America**
+![Sebastián Elgueta Godoy — Public Affairs, Digital Infrastructure and Research](assets/profile-header.svg)
 
-📍 Santiago, Chile  
-🌐 [Official website](https://selguetagodoy.github.io/) · [Professional bio](https://selguetagodoy.github.io/bio.html) · [Research projects](https://selguetagodoy.github.io/proyectos.html) · [Publications](https://selguetagodoy.github.io/publicaciones.html) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy) · [Facebook](https://www.facebook.com/sebagodoyelgueta/) · [Substack](https://substack.com/@sebastianelguetagodoy) · [Coordenadas Públicas](https://www.coordenadaspublicas.cl/nosotros/)
+**Sociólogo · Asuntos públicos · Políticas públicas · Infraestructura digital · Telecomunicaciones · Chile y América Latina**
 
-## Public profiles
+Trabajo en la intersección entre **regulación, infraestructura, inversión, territorio y datos**. Desarrollo investigación aplicada y asesoría estratégica sobre data centers, telecomunicaciones, conectividad, inclusión digital, institucionalidad y condiciones para el desarrollo de infraestructura.
 
-[Official website](https://selguetagodoy.github.io/) · [Verified web directory](https://selguetagodoy.github.io/en-la-web.html) · [Google Sites portfolio](https://sites.google.com/view/sebastianelguetagodoy) · [Gamma microsite](https://gamma.app/docs/Sebastian-Elgueta-Godoy-Public-Affairs-Digital-Infrastructure-Res-6kksqeeykbp631f) · [WordPress](https://sebastianelguetagodoy.wordpress.com/) · [Academia.edu](https://uai.academia.edu/ElguetaGodoy) · [ResearchGate](https://www.researchgate.net/profile/Sebastian-Elgueta-Godoy) · [Substack](https://substack.com/@sebastianelguetagodoy) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy)
+[**Sitio oficial**](https://selguetagodoy.github.io/) · [**Investigación**](https://selguetagodoy.github.io/investigacion.html) · [**Datos abiertos**](https://selguetagodoy.github.io/datos-abiertos.html) · [**Publicaciones**](https://selguetagodoy.github.io/publicaciones.html) · [**LinkedIn**](https://cl.linkedin.com/in/sebastian-elgueta-godoy) · [**Academia.edu**](https://uai.academia.edu/ElguetaGodoy) · [**ResearchGate**](https://www.researchgate.net/profile/Sebastian-Elgueta-Godoy)
 
-## About
+---
 
-I am **Sebastián Elgueta Godoy**, a Chilean sociologist and public affairs professional with more than 13 years of experience across public policy, telecommunications, regulation, technology, digital infrastructure, territorial development and strategic consulting.
+## Investigación y datasets
 
-My work sits at the intersection of **public policy, regulation, infrastructure, investment and territory**. I focus particularly on **data centers, telecommunications, connectivity, digital inclusion, digital transformation and the competitiveness of digital infrastructure in Chile and Latin America**.
+| Proyecto | Qué estudia | Versión citable |
+|---|---|---|
+| **[Latin America Digital Infrastructure](https://selguetagodoy.github.io/dataset-latin-america-digital-infrastructure.html)** | Data centers, cloud, IXPs, energía e institucionalidad en ocho mercados latinoamericanos | [DOI 10.5281/zenodo.22921175](https://doi.org/10.5281/zenodo.22921175) |
+| **[Chile Digital Inclusion](https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html)** | Inclusión digital, conectividad, redes e inequidades territoriales en 346 comunas | [DOI 10.5281/zenodo.22921191](https://doi.org/10.5281/zenodo.22921191) |
+| **[Atlas de la Desconexión Digital de Chile](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html)** | Intensidad y escala territorial de la brecha digital; fragilidad y vulnerabilidad digital | [DOI 10.5281/zenodo.22921209](https://doi.org/10.5281/zenodo.22921209) |
+| **[Velocidades de Internet](https://selguetagodoy.github.io/dataset-velocidades-internet.html)** | Series Akamai y Ookla 2008–2026 para Chile, Colombia y comparadores | [DOI 10.5281/zenodo.22921203](https://doi.org/10.5281/zenodo.22921203) |
+| **[Chile State Institutional Map](https://selguetagodoy.github.io/dataset-chile-state-institutional-map.html)** | Estructura del Estado chileno para asuntos públicos, regulación y stakeholder mapping | [DOI 10.5281/zenodo.22921221](https://doi.org/10.5281/zenodo.22921221) |
+| **[Stakeholder Routes Chile](https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html)** | Rutas regulatorias y de inversión por actor, etapa, competencia y punto de decisión | [DOI 10.5281/zenodo.22921234](https://doi.org/10.5281/zenodo.22921234) |
 
-I combine institutional and regulatory analysis with data-driven research, longitudinal indicators, territorial analysis and international benchmarking to support public and private decision-making.
+### Qué distingue estos repositorios
 
-## Topic hubs
+- **Trazabilidad:** fuentes primarias y registros de procedencia documentados.
+- **Comparabilidad:** los datos faltantes permanecen como tales; no se interpolan para completar series.
+- **Reproducibilidad:** controles automáticos de estructura, fuentes y transformaciones donde corresponde.
+- **Versionamiento:** releases citables y archivos persistentes en Zenodo.
+- **Separación analítica:** observaciones, proxies, indicadores derivados y capas metodológicas se identifican explícitamente.
 
-- [Digital infrastructure and data centers in Chile](https://selguetagodoy.github.io/infraestructura-digital.html)
-- [Telecommunications in Chile](https://selguetagodoy.github.io/telecomunicaciones.html)
-- [Public affairs and regulatory analysis in Chile](https://selguetagodoy.github.io/asuntos-publicos.html)
-- [Digital inclusion in Chile](https://selguetagodoy.github.io/inclusion-digital.html)
+[Explorar el catálogo completo de datos →](https://selguetagodoy.github.io/datos-abiertos.html)
 
-## Areas of expertise
+---
 
-- Public affairs and institutional relations
-- Public policy and regulatory analysis
-- Digital infrastructure and data centers
-- Telecommunications, broadband and connectivity
-- Digital inclusion and digital transformation
-- Infrastructure investment and territorial development
-- Permitting, regulatory environments and project viability
-- Strategic research, benchmarking and evidence-based analysis
-- Data analysis and open public datasets
-- Chile and Latin America comparative analysis
+## Áreas de trabajo
 
-## Professional background
+**Infraestructura digital y data centers.** Competitividad, energía, conectividad, permisos, regulación, costos, inversión y benchmarking internacional.
 
-My career includes experience in Chile's telecommunications public sector, legislative advisory work and strategic consulting. I have worked on regulation, infrastructure, connectivity, public policy, institutional strategy and territorial analysis, including projects that require coordination between government, companies, communities and other stakeholders.
+**Telecomunicaciones y conectividad.** Banda ancha fija y móvil, infraestructura de redes, desempeño de Internet, regulación sectorial e inclusión digital.
 
-My academic background includes a degree in **Sociology**, a **Master's degree in Urban and Regional Project Management**, and a **Master's degree in Political Communication and Public Affairs**.
+**Asuntos públicos y regulación.** Análisis institucional, procesos regulatorios, stakeholder mapping, policy intelligence y rutas de decisión.
 
-## LinkedIn analysis
+**Territorio y políticas públicas.** Desigualdad territorial, acceso a oportunidades, infraestructura, transformación digital y análisis comparado.
 
-Public analysis on telecommunications, regulation, connectivity, data centers, digital infrastructure and public policy is indexed here:
+---
 
-[LinkedIn publications archive →](https://selguetagodoy.github.io/linkedin-publicaciones.html)
+## Publicaciones y productos seleccionados
 
-[Telecommunications regulation in Chile →](https://selguetagodoy.github.io/regulacion-telecomunicaciones-chile.html)
+### Índice de Vulnerabilidad Digital y Atlas de la Desconexión Digital
 
-[LinkedIn profile →](https://cl.linkedin.com/in/sebastian-elgueta-godoy)
+**[Una radiografía territorial del acceso, la fragilidad digital y el nuevo Índice de Vulnerabilidad Digital](https://www.academia.edu/176096186/Una_radiograf%C3%ADa_territorial_del_acceso_la_fragilidad_digital_y_el_nuevo_%C3%8Dndice_de_Vulnerabilidad_Digital)**
 
-## Selected academic work
+Investigación sobre acceso, calidad de conexión, disponibilidad de dispositivos, condiciones sociales y acumulación territorial de vulnerabilidades digitales.
 
-### [Una radiografía territorial del acceso, la fragilidad digital y el nuevo Índice de Vulnerabilidad Digital](https://www.academia.edu/176096186/Una_radiograf%C3%ADa_territorial_del_acceso_la_fragilidad_digital_y_el_nuevo_%C3%8Dndice_de_Vulnerabilidad_Digital)
+[Atlas](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html) · [Índice de Vulnerabilidad Digital](https://selguetagodoy.github.io/indice-vulnerabilidad-digital-chile.html) · [Academia.edu](https://www.academia.edu/176096186/Una_radiograf%C3%ADa_territorial_del_acceso_la_fragilidad_digital_y_el_nuevo_%C3%8Dndice_de_Vulnerabilidad_Digital) · [ResearchGate](https://www.researchgate.net/publication/414679752_Una_radiografia_territorial_del_acceso_la_fragilidad_digital_y_el_nuevo_Indice_de_Vulnerabilidad_Digital)
 
-Academic document by **Sebastián Elgueta Godoy** associated with the *Atlas de la Desconexión Digital de Chile 2026*. The public Academia.edu record lists **169 pages** and describes a territorial framework integrating Internet access, connection quality, device availability, socioeconomic conditions and digital fragility, including the **Índice de Vulnerabilidad Digital**.
+### Observatorio de infraestructura digital latinoamericana
 
-[Digital Vulnerability Index →](https://selguetagodoy.github.io/indice-vulnerabilidad-digital-chile.html) · [Academia.edu →](https://www.academia.edu/176096186/Una_radiograf%C3%ADa_territorial_del_acceso_la_fragilidad_digital_y_el_nuevo_%C3%8Dndice_de_Vulnerabilidad_Digital) · [ResearchGate →](https://www.researchgate.net/publication/414679752_Una_radiografia_territorial_del_acceso_la_fragilidad_digital_y_el_nuevo_Indice_de_Vulnerabilidad_Digital) · [Atlas →](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html) · [DOI →](https://doi.org/10.5281/zenodo.22921208)
+**[Latin America Digital Infrastructure](https://selguetagodoy.github.io/latin-america-digital-infrastructure/)** compara ocho mercados mediante una matriz común de escala de mercado, cloud, interconexión, energía, resiliencia e institucionalidad.
 
-## Research and public projects
+[Benchmark regional](https://selguetagodoy.github.io/latin-america-digital-infrastructure/benchmark.html) · [Perfiles de mercados](https://selguetagodoy.github.io/latin-america-digital-infrastructure/markets.html) · [Repositorio](https://github.com/selguetagodoy/latin-america-digital-infrastructure)
 
-### [Latin America Digital Infrastructure](https://github.com/selguetagodoy/latin-america-digital-infrastructure)
-Open, source-backed comparative research on digital infrastructure in Latin America, including data centers, cloud regions, Internet exchange points, submarine connectivity, energy and market indicators. [Explore the public observatory →](https://selguetagodoy.github.io/latin-america-digital-infrastructure/)
+### Análisis público
 
-### [Chile State Institutional Map](https://github.com/selguetagodoy/chile-state-institutional-map-)
-Open institutional dataset for public affairs and stakeholder mapping in Chile. It structures ministries, public services, subsecretariats, regional governments, presidential delegations, municipalities and superior State bodies with source and coverage controls.
+[Publicaciones de LinkedIn](https://selguetagodoy.github.io/linkedin-publicaciones.html) · [Telecomunicaciones](https://selguetagodoy.github.io/telecomunicaciones.html) · [Infraestructura digital](https://selguetagodoy.github.io/infraestructura-digital.html) · [Asuntos públicos](https://selguetagodoy.github.io/asuntos-publicos.html) · [Inclusión digital](https://selguetagodoy.github.io/inclusion-digital.html)
 
-### [Stakeholder Routes Chile](https://github.com/selguetagodoy/stakeholder_routes_Chile)
-Open decision-route dataset for public affairs in Chile, mapping regulatory and investment pathways by actor, stage, competence, conditionality and decision point.
+---
 
-### [Chile Digital Inclusion](https://github.com/selguetagodoy/Chile-Digital-Inclusion)
-Open data and reproducible analysis on digital inclusion, connectivity, broadband, territorial gaps, digital skills and network infrastructure in Chile.
+## Trayectoria
 
-### [Atlas de la Desconexión Digital de Chile](https://github.com/selguetagodoy/atlas-desconexion-digital-chile.)
-Territorial analysis of digital exclusion in Chile, distinguishing the intensity of connectivity gaps from their social scale across municipalities.
+Tengo más de una década de experiencia en **sector público, asesoría legislativa y consultoría estratégica**, con trabajo en telecomunicaciones, regulación, infraestructura, tecnología, políticas públicas y desarrollo territorial.
 
-### [Internet Speeds — Chile, Colombia and international comparators](https://github.com/selguetagodoy/Ookla)
-Longitudinal analysis of fixed and mobile Internet performance using public Akamai and Ookla evidence while preserving methodological breaks and missing values.
+Mi formación incluye **Sociología**, un **Magíster en Gestión de Proyectos Urbanos Regionales** y un **Magíster en Comunicación Política y Asuntos Públicos**.
 
-## Citable research releases
+El detalle de experiencia, formación, publicaciones y presencia pública está concentrado en mi [sitio oficial](https://selguetagodoy.github.io/).
 
-- [Latin America Digital Infrastructure](https://doi.org/10.5281/zenodo.22921174) — concept DOI for the versioned Zenodo archive.
-- [Chile Digital Inclusion](https://doi.org/10.5281/zenodo.22921190) — concept DOI for the versioned Zenodo archive.
-- [Atlas de la Desconexión Digital de Chile](https://doi.org/10.5281/zenodo.22921208) — concept DOI.
-- [Internet Speeds and Connectivity](https://doi.org/10.5281/zenodo.22921202) — concept DOI.
-- [Chile State Institutional Map](https://doi.org/10.5281/zenodo.22921220) — concept DOI.
-- [Stakeholder Routes Chile](https://doi.org/10.5281/zenodo.22921233) — concept DOI.
+---
 
-## Current research interests
+## Research profile
 
-I am particularly interested in how countries and cities compete for digital infrastructure investment and how **energy, regulation, permitting, connectivity, taxation, talent, costs and territorial conditions** influence the development of data centers and other strategic infrastructure.
+Applied research on **public affairs, digital infrastructure, data centers, telecommunications, digital inclusion and territorial development in Chile and Latin America**. My repositories combine public-source evidence, comparative analysis, documented provenance and citable releases.
 
-I also work on **digital inclusion, broadband markets, regulatory modernization, open data and reproducible comparative research**, with an emphasis on building evidence that can be traced back to public and primary sources.
-
-## En español
-
-Soy **Sebastián Elgueta Godoy**, sociólogo y consultor en asuntos públicos, políticas públicas, regulación e infraestructura digital en Chile. Mi trabajo se concentra en telecomunicaciones, data centers, conectividad, inclusión digital, transformación digital, inversión, territorio y análisis comparado de América Latina.
-
-Desarrollo investigación aplicada y análisis estratégico utilizando datos públicos, series longitudinales, benchmarking internacional y análisis territorial para comprender cómo las condiciones regulatorias, institucionales, económicas y de infraestructura inciden en el desarrollo digital.
-
-## Languages
-
-Spanish · English · Portuguese (basic)
+**Languages:** Spanish · English · Portuguese (basic)
 
 ---
 
 **Sebastián Elgueta Godoy**  
-Sociologist · Public Affairs · Public Policy · Digital Infrastructure · Data Centers · Telecommunications  
-Santiago, Chile
+Santiago, Chile · [selguetagodoy.github.io](https://selguetagodoy.github.io/)
