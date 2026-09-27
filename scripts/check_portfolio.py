@@ -38,6 +38,7 @@ REQUIRED_PROJECT_FIELDS = {
     "latest_citable_release_url",
     "citation",
     "data_package",
+    "citable_release_date",
 }
 
 
@@ -211,6 +212,10 @@ def main() -> int:
             continue
         if node.get("url") != project["landing"]:
             failures.append(f"{project['id']}: JSON-LD landing mismatch")
+        if node.get("version") != project["latest_citable_version"]:
+            failures.append(f"{project['id']}: JSON-LD citable version mismatch")
+        if node.get("datePublished") != project["citable_release_date"]:
+            failures.append(f"{project['id']}: JSON-LD citable release date mismatch")
         identifiers = set(node.get("identifier", []))
         expected_identifiers = {project["concept_doi"], project["version_doi"]}
         if not expected_identifiers.issubset(identifiers):
