@@ -19,6 +19,7 @@ REQUIRED_INTERFACES = {
     "public_dataset_json",
     "methodology",
     "research_status",
+    "research_jsonld",
 }
 
 REQUIRED_PROJECT_FIELDS = {
@@ -101,7 +102,7 @@ def main() -> int:
     if len(projects) != 6:
         failures.append(f"expected 6 portfolio projects, found {len(projects)}")
 
-    expected_schema = "https://raw.githubusercontent.com/selguetagodoy/selguetagodoy/main/research-portfolio.schema.json"
+    expected_schema = "https://selguetagodoy.github.io/research-portfolio.schema.json"
     if payload.get("$schema") != expected_schema:
         failures.append("portfolio $schema does not point to the canonical schema")
 
