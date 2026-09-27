@@ -11,6 +11,8 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 PORTFOLIO = ROOT / "research-portfolio.json"
 UA = "Mozilla/5.0 (compatible; SEGMetadataCheck/1.0; +https://selguetagodoy.github.io/)"
+CANONICAL_PORTFOLIO_RAW = "https://raw.githubusercontent.com/selguetagodoy/selguetagodoy.github.io/main/research-portfolio.json"
+CANONICAL_SCHEMA_RAW = "https://raw.githubusercontent.com/selguetagodoy/selguetagodoy.github.io/main/research-portfolio.schema.json"
 
 def get(url: str) -> str:
     req = Request(url, headers={"User-Agent": UA})
@@ -42,6 +44,24 @@ def main() -> int:
     payload = json.loads(PORTFOLIO.read_text(encoding="utf-8"))
     failures: list[str] = []
     checks = 0
+
+    try:
+        public_payload = json.loads(get(CANONICAL_PORTFOLIO_RAW))
+        checks += 1
+        if public_payload != payload:
+            failures.append("canonical-domain research-portfolio.json differs from source portfolio")
+    except (HTTPError, URLError, json.JSONDecodeError) as exc:
+        failures.append(f"cannot validate canonical-domain research portfolio: {exc}")
+
+    try:
+        public_schema = json.loads(get(CANONICAL_SCHEMA_RAW))
+        checks += 1
+        if public_schema.get("$id") != "https://selguetagodoy.github.io/research-portfolio.schema.json":
+            failures.append("canonical research portfolio schema has unexpected $id")
+        if payload.get("$schema") != public_schema.get("$id"):
+            failures.append("source portfolio $schema does not match canonical schema $id")
+    except (HTTPError, URLError, json.JSONDecodeError) as exc:
+        failures.append(f"cannot validate canonical-domain research schema: {exc}")
 
     required_artifacts = (
         "SOURCE_OF_TRUTH.md",
