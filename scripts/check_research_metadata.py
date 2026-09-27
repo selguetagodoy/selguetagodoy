@@ -34,6 +34,8 @@ def main() -> int:
         "NOTICE.md",
         "CHANGELOG.md",
         "CONTRIBUTING.md",
+        ".github/ISSUE_TEMPLATE/evidence-correction.yml",
+        ".github/pull_request_template.md",
     )
 
     for project in payload["projects"]:
