@@ -39,6 +39,7 @@ REQUIRED_PROJECT_FIELDS = {
     "latest_citable_release_url",
     "citation",
     "data_package",
+    "ro_crate",
     "citable_release_date",
 }
 
@@ -162,6 +163,7 @@ def main() -> int:
             "citation.bibtex": citation.get("bibtex", ""),
             "citation.codemeta": citation.get("codemeta", ""),
             "data_package": project["data_package"],
+            "ro_crate": project["ro_crate"],
         }
 
         for field, url in urls.items():
