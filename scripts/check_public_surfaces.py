@@ -18,6 +18,7 @@ SURFACES = {
     "publications.md": "https://selguetagodoy.github.io/publications.md",
     "datos-abiertos.html": "https://selguetagodoy.github.io/datos-abiertos.html",
     "datasets.json": "https://selguetagodoy.github.io/datasets.json",
+    "research.jsonld": "https://selguetagodoy.github.io/research.jsonld",
     "investigacion.html": "https://selguetagodoy.github.io/investigacion.html",
     "publicaciones.html": "https://selguetagodoy.github.io/publicaciones.html",
 }
@@ -65,8 +66,12 @@ def main() -> int:
             failures.append(f"{pid}: version DOI missing from publications.md")
         if version_doi not in downloaded["datasets.json"]:
             failures.append(f"{pid}: version DOI missing from datasets.json")
+        if version_doi not in downloaded["research.jsonld"]:
+            failures.append(f"{pid}: version DOI missing from research.jsonld")
         if title not in downloaded["llms.txt"]:
             failures.append(f"{pid}: project title missing from llms.txt")
+        if title not in downloaded["research.jsonld"]:
+            failures.append(f"{pid}: project title missing from research.jsonld")
 
     # Publications HTML intentionally treats datasets as research outputs,
     # not as journalistic articles; all six should still be discoverable there.
