@@ -50,12 +50,17 @@
           "title",
           "type",
           "scope",
+          "description",
+          "keywords",
           "landing",
           "repository",
           "concept_doi",
           "version_doi",
           "latest_git_release",
-          "latest_citable_version"
+          "latest_citable_version",
+          "latest_git_release_url",
+          "latest_citable_release_url",
+          "citation"
         ],
         "properties": {
           "id": {
@@ -95,6 +100,45 @@
           "latest_git_release_url": {
             "type": "string",
             "format": "uri"
+          },
+          "description": {
+            "type": "string",
+            "minLength": 20
+          },
+          "keywords": {
+            "type": "array",
+            "minItems": 4,
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "latest_citable_release_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "citation": {
+            "type": "object",
+            "required": [
+              "cff",
+              "bibtex",
+              "codemeta"
+            ],
+            "properties": {
+              "cff": {
+                "type": "string",
+                "format": "uri"
+              },
+              "bibtex": {
+                "type": "string",
+                "format": "uri"
+              },
+              "codemeta": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "additionalProperties": false
           }
         },
         "additionalProperties": false
