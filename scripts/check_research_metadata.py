@@ -33,6 +33,7 @@ def main() -> int:
         "codemeta.json",
         "NOTICE.md",
         "CHANGELOG.md",
+        "CONTRIBUTING.md",
     )
 
     for project in payload["projects"]:
