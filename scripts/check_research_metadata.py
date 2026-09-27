@@ -64,8 +64,21 @@ def main() -> int:
         version_doi = project["version_doi"]
         expected_latest = project.get("latest_git_release")
 
+        owner_repo = repo.removeprefix("https://github.com/").rstrip("/")
+        tree_items: dict[str, dict] = {}
+        try:
+            tree_url = f"https://api.github.com/repos/{owner_repo}/git/trees/main?recursive=1"
+            tree_payload = json.loads(get(tree_url))
+            tree_items = {
+                item["path"]: item
+                for item in tree_payload.get("tree", [])
+                if item.get("type") == "blob" and item.get("path")
+            }
+            checks += 1
+        except (HTTPError, URLError, json.JSONDecodeError) as exc:
+            failures.append(f"{pid}: cannot read repository tree: {exc}")
+
         if expected_latest:
-            owner_repo = repo.removeprefix("https://github.com/").rstrip("/")
             api_url = f"https://api.github.com/repos/{owner_repo}/releases/latest"
             try:
                 latest_release = json.loads(get(api_url))
@@ -157,6 +170,33 @@ def main() -> int:
                     checks += 1
                     if not exists(resource_url):
                         failures.append(f"{pid}: datapackage resource not found — {path}")
+                        continue
+
+                    tree_item = tree_items.get(path)
+                    if not tree_item:
+                        failures.append(f"{pid}: resource missing from Git tree — {path}")
+                        continue
+
+                    declared_size = resource.get("bytes")
+                    declared_sha = resource.get("git_blob_sha")
+                    actual_size = tree_item.get("size")
+                    actual_sha = tree_item.get("sha")
+
+                    if declared_size is None:
+                        failures.append(f"{pid}: datapackage resource missing bytes — {path}")
+                    elif declared_size != actual_size:
+                        failures.append(
+                            f"{pid}: resource size drift for {path}: "
+                            f"{declared_size} != {actual_size}"
+                        )
+
+                    if not declared_sha:
+                        failures.append(f"{pid}: datapackage resource missing git_blob_sha — {path}")
+                    elif declared_sha != actual_sha:
+                        failures.append(
+                            f"{pid}: resource blob drift for {path}: "
+                            f"{declared_sha} != {actual_sha}"
+                        )
 
     print(f"Research metadata consistency: {len(payload['projects'])} projects · {checks} metadata/resource checks.")
     if failures:
