@@ -37,7 +37,13 @@
         "https://github.com/selguetagodoy/latin-america-digital-infrastructure",
         "https://github.com/selguetagodoy/latin-america-digital-infrastructure/releases/tag/v0.2.0",
         "https://doi.org/10.5281/zenodo.22921175"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "DigitalDocument",
+        "name": "Data Package descriptor",
+        "encodingFormat": "application/json",
+        "url": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/blob/main/datapackage.json"
+      }
     },
     {
       "@type": "Dataset",
@@ -66,7 +72,13 @@
         "https://github.com/selguetagodoy/Chile-Digital-Inclusion",
         "https://github.com/selguetagodoy/Chile-Digital-Inclusion/releases/tag/v0.1.0",
         "https://doi.org/10.5281/zenodo.22921191"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "DigitalDocument",
+        "name": "Data Package descriptor",
+        "encodingFormat": "application/json",
+        "url": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/blob/main/datapackage.json"
+      }
     },
     {
       "@type": "Dataset",
@@ -94,7 +106,13 @@
         "https://github.com/selguetagodoy/atlas-desconexion-digital-chile.",
         "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./releases/tag/v0.1.0",
         "https://doi.org/10.5281/zenodo.22921209"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "DigitalDocument",
+        "name": "Data Package descriptor",
+        "encodingFormat": "application/json",
+        "url": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/datapackage.json"
+      }
     },
     {
       "@type": "Dataset",
@@ -123,7 +141,13 @@
         "https://github.com/selguetagodoy/Ookla",
         "https://github.com/selguetagodoy/Ookla/releases/tag/v0.1.0",
         "https://doi.org/10.5281/zenodo.22921203"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "DigitalDocument",
+        "name": "Data Package descriptor",
+        "encodingFormat": "application/json",
+        "url": "https://github.com/selguetagodoy/Ookla/blob/main/datapackage.json"
+      }
     },
     {
       "@type": "Dataset",
@@ -151,7 +175,13 @@
         "https://github.com/selguetagodoy/chile-state-institutional-map-",
         "https://github.com/selguetagodoy/chile-state-institutional-map-/releases/tag/v0.1.0",
         "https://doi.org/10.5281/zenodo.22921221"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "DigitalDocument",
+        "name": "Data Package descriptor",
+        "encodingFormat": "application/json",
+        "url": "https://github.com/selguetagodoy/chile-state-institutional-map-/blob/main/datapackage.json"
+      }
     },
     {
       "@type": "Dataset",
@@ -179,7 +209,13 @@
         "https://github.com/selguetagodoy/stakeholder_routes_Chile",
         "https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.3.0",
         "https://doi.org/10.5281/zenodo.22921234"
-      ]
+      ],
+      "subjectOf": {
+        "@type": "DigitalDocument",
+        "name": "Data Package descriptor",
+        "encodingFormat": "application/json",
+        "url": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/datapackage.json"
+      }
     }
   ]
 }
