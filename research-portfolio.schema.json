@@ -158,7 +158,8 @@
         "open_data_catalog",
         "public_dataset_json",
         "methodology",
-        "research_status"
+        "research_status",
+        "research_jsonld"
       ],
       "properties": {
         "research_overview": {
@@ -178,6 +179,10 @@
           "format": "uri"
         },
         "research_status": {
+          "type": "string",
+          "format": "uri"
+        },
+        "research_jsonld": {
           "type": "string",
           "format": "uri"
         }
