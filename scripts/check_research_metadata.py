@@ -65,6 +65,7 @@ def main() -> int:
 
     required_artifacts = (
         "SOURCE_OF_TRUTH.md",
+        "CITATION.md",
         "CITATION.cff",
         "CITATION.bib",
         "codemeta.json",
@@ -128,7 +129,15 @@ def main() -> int:
             if filename in {"SOURCE_OF_TRUTH.md", "NOTICE.md", "CHANGELOG.md", "CONTRIBUTING.md", "RELEASE_POLICY.md", "PUBLIC_RESOURCES.md", ".github/ISSUE_TEMPLATE/evidence-correction.yml", ".github/pull_request_template.md"}:
                 continue
 
-            if filename == "CITATION.cff":
+            if filename == "CITATION.md":
+                doi = version_doi.removeprefix("https://doi.org/")
+                if doi not in content:
+                    failures.append(f"{pid}: CITATION.md missing version DOI")
+                expected_version = project.get("latest_citable_version", "").removeprefix("v")
+                if expected_version and f"Version {expected_version}" not in content:
+                    failures.append(f"{pid}: CITATION.md citable version mismatch")
+
+            elif filename == "CITATION.cff":
                 url_match = re.search(r'^url:\s*"([^"]+)"', content, re.M)
                 doi_match = re.search(r'^doi:\s*"([^"]+)"', content, re.M)
                 if not url_match or url_match.group(1) != landing:
@@ -301,6 +310,8 @@ def main() -> int:
                         failures.append(
                             f"{pid}: RO-Crate missing Data Package resources {sorted(missing_payload)}"
                         )
+                    if "CITATION.md" not in has_part:
+                        failures.append(f"{pid}: RO-Crate missing CITATION.md")
 
     print(f"Research metadata consistency: {len(payload['projects'])} projects · {checks} metadata/resource checks.")
     if failures:
