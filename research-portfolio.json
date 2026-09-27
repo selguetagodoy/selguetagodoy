@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/selguetagodoy/selguetagodoy/main/research-portfolio.schema.json",
   "schema_version": "1.0",
   "author": {
     "name": "Sebastián Elgueta Godoy",
