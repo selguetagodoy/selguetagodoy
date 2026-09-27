@@ -6,6 +6,7 @@ on:
     paths:
       - "README.md"
       - "research-portfolio.json"
+      - "research-portfolio.schema.json"
       - "scripts/check_portfolio.py"
       - "scripts/check_research_metadata.py"
       - ".github/workflows/portfolio-qa.yml"
