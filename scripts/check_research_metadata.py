@@ -64,6 +64,7 @@ def main() -> int:
         landing = project["landing"]
         version_doi = project["version_doi"]
         expected_latest = project.get("latest_git_release")
+        expected_citable_date = project.get("citable_release_date")
 
         owner_repo = repo.removeprefix("https://github.com/").rstrip("/")
         tree_items: dict[str, dict] = {}
@@ -112,6 +113,11 @@ def main() -> int:
                 expected = version_doi.removeprefix("https://doi.org/")
                 if not doi_match or doi_match.group(1) != expected:
                     failures.append(f"{pid}: CITATION.cff version DOI mismatch")
+                date_match = re.search(r'^date-released:\s*"?([^"\n]+)"?', content, re.M)
+                if expected_citable_date and (
+                    not date_match or date_match.group(1).strip() != expected_citable_date
+                ):
+                    failures.append(f"{pid}: CITATION.cff release date mismatch")
 
             elif filename == "codemeta.json":
                 try:
