@@ -18,7 +18,25 @@
       "concept_doi": "https://doi.org/10.5281/zenodo.22921174",
       "version_doi": "https://doi.org/10.5281/zenodo.22921175",
       "latest_git_release": "v0.2.0",
-      "latest_citable_version": "v0.2.0"
+      "latest_citable_version": "v0.2.0",
+      "description": "Comparative dataset and observatory on data centers, cloud regions, IXPs, submarine connectivity, energy and institutional conditions across eight Latin American benchmark markets.",
+      "keywords": [
+        "data centers",
+        "digital infrastructure",
+        "Latin America",
+        "cloud",
+        "IXP",
+        "energy",
+        "telecommunications",
+        "benchmark"
+      ],
+      "latest_git_release_url": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/releases/tag/v0.2.0",
+      "latest_citable_release_url": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/releases/tag/v0.2.0",
+      "citation": {
+        "cff": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/blob/main/CITATION.cff",
+        "bibtex": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/blob/main/CITATION.bib",
+        "codemeta": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/blob/main/codemeta.json"
+      }
     },
     {
       "id": "chile-digital-inclusion",
@@ -30,7 +48,25 @@
       "concept_doi": "https://doi.org/10.5281/zenodo.22921190",
       "version_doi": "https://doi.org/10.5281/zenodo.22921191",
       "latest_git_release": "v0.1.0",
-      "latest_citable_version": "v0.1.0"
+      "latest_citable_version": "v0.1.0",
+      "description": "Communal dataset on digital inclusion, household connectivity, broadband, fixed and mobile infrastructure, education connectivity and observed network performance across Chile.",
+      "keywords": [
+        "digital inclusion",
+        "digital divide",
+        "Chile",
+        "broadband",
+        "4G",
+        "5G",
+        "connectivity",
+        "territorial analysis"
+      ],
+      "latest_git_release_url": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/releases/tag/v0.1.0",
+      "latest_citable_release_url": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/releases/tag/v0.1.0",
+      "citation": {
+        "cff": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/blob/main/CITATION.cff",
+        "bibtex": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/blob/main/CITATION.bib",
+        "codemeta": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/blob/main/codemeta.json"
+      }
     },
     {
       "id": "atlas-desconexion-digital-chile",
@@ -42,7 +78,24 @@
       "concept_doi": "https://doi.org/10.5281/zenodo.22921208",
       "version_doi": "https://doi.org/10.5281/zenodo.22921209",
       "latest_git_release": "v0.1.0",
-      "latest_citable_version": "v0.1.0"
+      "latest_citable_version": "v0.1.0",
+      "description": "Territorial research and public dataset on digital exclusion, connectivity, digital fragility and vulnerability in Chile, associated with the Digital Vulnerability Index.",
+      "keywords": [
+        "digital divide",
+        "digital vulnerability",
+        "Chile",
+        "territory",
+        "connectivity",
+        "digital inclusion",
+        "IVD"
+      ],
+      "latest_git_release_url": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./releases/tag/v0.1.0",
+      "latest_citable_release_url": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./releases/tag/v0.1.0",
+      "citation": {
+        "cff": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/CITATION.cff",
+        "bibtex": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/CITATION.bib",
+        "codemeta": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/codemeta.json"
+      }
     },
     {
       "id": "internet-speeds",
@@ -54,7 +107,25 @@
       "concept_doi": "https://doi.org/10.5281/zenodo.22921202",
       "version_doi": "https://doi.org/10.5281/zenodo.22921203",
       "latest_git_release": "v0.1.0",
-      "latest_citable_version": "v0.1.0"
+      "latest_citable_version": "v0.1.0",
+      "description": "Longitudinal analytical dataset on fixed and mobile Internet speeds from 2008 to 2026, preserving the methodological separation between Akamai and Ookla.",
+      "keywords": [
+        "Internet speed",
+        "broadband",
+        "Ookla",
+        "Akamai",
+        "Chile",
+        "Colombia",
+        "network performance",
+        "connectivity"
+      ],
+      "latest_git_release_url": "https://github.com/selguetagodoy/Ookla/releases/tag/v0.1.0",
+      "latest_citable_release_url": "https://github.com/selguetagodoy/Ookla/releases/tag/v0.1.0",
+      "citation": {
+        "cff": "https://github.com/selguetagodoy/Ookla/blob/main/CITATION.cff",
+        "bibtex": "https://github.com/selguetagodoy/Ookla/blob/main/CITATION.bib",
+        "codemeta": "https://github.com/selguetagodoy/Ookla/blob/main/codemeta.json"
+      }
     },
     {
       "id": "chile-state-institutional-map",
@@ -66,7 +137,24 @@
       "concept_doi": "https://doi.org/10.5281/zenodo.22921220",
       "version_doi": "https://doi.org/10.5281/zenodo.22921221",
       "latest_git_release": "v0.1.0",
-      "latest_citable_version": "v0.1.0"
+      "latest_citable_version": "v0.1.0",
+      "description": "Machine-readable institutional map of the Chilean State for public affairs, public policy, regulatory analysis and stakeholder mapping.",
+      "keywords": [
+        "Chile",
+        "public affairs",
+        "government",
+        "regulation",
+        "institutional analysis",
+        "stakeholder mapping",
+        "open data"
+      ],
+      "latest_git_release_url": "https://github.com/selguetagodoy/chile-state-institutional-map-/releases/tag/v0.1.0",
+      "latest_citable_release_url": "https://github.com/selguetagodoy/chile-state-institutional-map-/releases/tag/v0.1.0",
+      "citation": {
+        "cff": "https://github.com/selguetagodoy/chile-state-institutional-map-/blob/main/CITATION.cff",
+        "bibtex": "https://github.com/selguetagodoy/chile-state-institutional-map-/blob/main/CITATION.bib",
+        "codemeta": "https://github.com/selguetagodoy/chile-state-institutional-map-/blob/main/codemeta.json"
+      }
     },
     {
       "id": "stakeholder-routes-chile",
@@ -79,7 +167,23 @@
       "version_doi": "https://doi.org/10.5281/zenodo.22921234",
       "latest_git_release": "v0.3.0",
       "latest_citable_version": "v0.2.0",
-      "latest_git_release_url": "https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.3.0"
+      "latest_git_release_url": "https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.3.0",
+      "description": "Decision-route dataset for public affairs and investment projects in Chile, mapping regulatory pathways by actor, stage, competence, conditionality and decision point.",
+      "keywords": [
+        "public affairs",
+        "stakeholder mapping",
+        "Chile",
+        "regulation",
+        "permitting",
+        "investment",
+        "decision routes"
+      ],
+      "latest_citable_release_url": "https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.2.0",
+      "citation": {
+        "cff": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/CITATION.cff",
+        "bibtex": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/CITATION.bib",
+        "codemeta": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/codemeta.json"
+      }
     }
   ]
 }
