@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/selguetagodoy/selguetagodoy/main/research-portfolio.schema.json",
+  "title": "Sebastián Elgueta Godoy Research Portfolio",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "author",
+    "last_updated",
+    "projects"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "author": {
+      "type": "object",
+      "required": [
+        "name",
+        "canonical_url",
+        "github"
+      ],
+      "properties": {
+        "name": {
+          "const": "Sebastián Elgueta Godoy"
+        },
+        "canonical_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "github": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "additionalProperties": false
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "projects": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "type",
+          "scope",
+          "landing",
+          "repository",
+          "concept_doi",
+          "version_doi",
+          "latest_git_release",
+          "latest_citable_version"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "type": {
+            "const": "dataset"
+          },
+          "scope": {
+            "type": "string"
+          },
+          "landing": {
+            "type": "string",
+            "format": "uri"
+          },
+          "repository": {
+            "type": "string",
+            "format": "uri"
+          },
+          "concept_doi": {
+            "type": "string",
+            "format": "uri"
+          },
+          "version_doi": {
+            "type": "string",
+            "format": "uri"
+          },
+          "latest_git_release": {
+            "type": "string"
+          },
+          "latest_citable_version": {
+            "type": "string"
+          },
+          "latest_git_release_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "additionalProperties": false
+      },
+      "uniqueItems": true
+    }
+  },
+  "additionalProperties": false
+}
