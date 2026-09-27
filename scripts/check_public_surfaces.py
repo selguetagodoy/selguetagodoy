@@ -63,6 +63,26 @@ def main() -> int:
             print("ERROR:", failure)
         return 1
 
+    interfaces = portfolio.get("interfaces", {})
+    required_interface_surfaces = {
+        "research_overview": ("llms.txt", "profile.md"),
+        "open_data_catalog": ("llms.txt", "profile.md", "research.md"),
+        "public_dataset_json": ("llms.txt", "profile.md", "research.md"),
+        "research_jsonld": ("llms.txt", "profile.md", "research.md"),
+        "methodology": ("llms.txt", "profile.md", "research.md"),
+        "research_status": ("llms.txt", "profile.md", "research.md"),
+    }
+    for key, surfaces in required_interface_surfaces.items():
+        url = interfaces.get(key)
+        if not url:
+            failures.append(f"portfolio interface missing: {key}")
+            continue
+        for surface_name in surfaces:
+            if url not in downloaded[surface_name]:
+                failures.append(
+                    f"interface {key} missing from {surface_name}: {url}"
+                )
+
     for project in portfolio["projects"]:
         pid = project["id"]
         landing = project["landing"]
