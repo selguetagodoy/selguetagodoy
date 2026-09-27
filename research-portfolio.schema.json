@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/selguetagodoy/selguetagodoy/main/research-portfolio.schema.json",
+  "$id": "https://selguetagodoy.github.io/research-portfolio.schema.json",
   "title": "Sebastián Elgueta Godoy Research Portfolio",
   "type": "object",
   "required": [
