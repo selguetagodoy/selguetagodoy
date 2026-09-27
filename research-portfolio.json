@@ -191,5 +191,12 @@
       },
       "data_package": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/datapackage.json"
     }
-  ]
+  ],
+  "interfaces": {
+    "research_overview": "https://selguetagodoy.github.io/investigacion.html",
+    "open_data_catalog": "https://selguetagodoy.github.io/datos-abiertos.html",
+    "public_dataset_json": "https://selguetagodoy.github.io/datasets.json",
+    "methodology": "https://selguetagodoy.github.io/metodologia-reproducibilidad.html",
+    "research_status": "https://selguetagodoy.github.io/estado-investigacion.html"
+  }
 }
