@@ -31,7 +31,7 @@ Trabajo en la intersección entre **regulación, infraestructura, inversión, te
 - **Versionamiento:** releases citables y archivos persistentes en Zenodo.
 - **Separación analítica:** observaciones, proxies, indicadores derivados y capas metodológicas se identifican explícitamente.
 
-[Explorar el catálogo completo de datos →](https://selguetagodoy.github.io/datos-abiertos.html) · [Índice de portafolio legible por máquinas →](research-portfolio.json)
+[Explorar el catálogo completo de datos →](https://selguetagodoy.github.io/datos-abiertos.html) · [Portfolio JSON →](research-portfolio.json) · [JSON-LD →](research-portfolio.jsonld) · [Schema →](research-portfolio.schema.json)
 
 > **Versioning note:** Stakeholder Routes v0.3.0 is the current GitHub release; v0.2.0 remains the latest version with a confirmed version-specific Zenodo DOI in the public metadata checked on 2026-09-27.
 
