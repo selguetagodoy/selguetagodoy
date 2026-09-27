@@ -4,6 +4,8 @@
 
 **Sociólogo · Asuntos públicos · Políticas públicas · Infraestructura digital · Telecomunicaciones · Chile y América Latina**
 
+[![Research Portfolio QA](https://github.com/selguetagodoy/selguetagodoy/actions/workflows/portfolio-qa.yml/badge.svg)](https://github.com/selguetagodoy/selguetagodoy/actions/workflows/portfolio-qa.yml)
+
 Trabajo en la intersección entre **regulación, infraestructura, inversión, territorio y datos**. Desarrollo investigación aplicada y asesoría estratégica sobre data centers, telecomunicaciones, conectividad, inclusión digital, institucionalidad y condiciones para el desarrollo de infraestructura.
 
 [**Sitio oficial**](https://selguetagodoy.github.io/) · [**Investigación**](https://selguetagodoy.github.io/investigacion.html) · [**Datos abiertos**](https://selguetagodoy.github.io/datos-abiertos.html) · [**Publicaciones**](https://selguetagodoy.github.io/publicaciones.html) · [**LinkedIn**](https://cl.linkedin.com/in/sebastian-elgueta-godoy) · [**Academia.edu**](https://uai.academia.edu/ElguetaGodoy) · [**ResearchGate**](https://www.researchgate.net/profile/Sebastian-Elgueta-Godoy)
@@ -29,7 +31,7 @@ Trabajo en la intersección entre **regulación, infraestructura, inversión, te
 - **Versionamiento:** releases citables y archivos persistentes en Zenodo.
 - **Separación analítica:** observaciones, proxies, indicadores derivados y capas metodológicas se identifican explícitamente.
 
-[Explorar el catálogo completo de datos →](https://selguetagodoy.github.io/datos-abiertos.html)
+[Explorar el catálogo completo de datos →](https://selguetagodoy.github.io/datos-abiertos.html) · [Índice de portafolio legible por máquinas →](research-portfolio.json)
 
 ---
 
