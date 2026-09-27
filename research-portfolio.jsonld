@@ -68,12 +68,20 @@
         "https://github.com/selguetagodoy/latin-america-digital-infrastructure/releases/tag/v0.2.0",
         "https://doi.org/10.5281/zenodo.22921175"
       ],
-      "subjectOf": {
-        "@type": "DigitalDocument",
-        "name": "Data Package descriptor",
-        "encodingFormat": "application/json",
-        "url": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/blob/main/datapackage.json"
-      },
+      "subjectOf": [
+        {
+          "@type": "DigitalDocument",
+          "name": "Data Package descriptor",
+          "encodingFormat": "application/json",
+          "url": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/blob/main/datapackage.json"
+        },
+        {
+          "@type": "DigitalDocument",
+          "name": "RO-Crate 1.2 metadata",
+          "encodingFormat": "application/ld+json",
+          "url": "https://raw.githubusercontent.com/selguetagodoy/latin-america-digital-infrastructure/main/ro-crate-metadata.json"
+        }
+      ],
       "includedInDataCatalog": {
         "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       },
@@ -108,12 +116,20 @@
         "https://github.com/selguetagodoy/Chile-Digital-Inclusion/releases/tag/v0.1.0",
         "https://doi.org/10.5281/zenodo.22921191"
       ],
-      "subjectOf": {
-        "@type": "DigitalDocument",
-        "name": "Data Package descriptor",
-        "encodingFormat": "application/json",
-        "url": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/blob/main/datapackage.json"
-      },
+      "subjectOf": [
+        {
+          "@type": "DigitalDocument",
+          "name": "Data Package descriptor",
+          "encodingFormat": "application/json",
+          "url": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/blob/main/datapackage.json"
+        },
+        {
+          "@type": "DigitalDocument",
+          "name": "RO-Crate 1.2 metadata",
+          "encodingFormat": "application/ld+json",
+          "url": "https://raw.githubusercontent.com/selguetagodoy/Chile-Digital-Inclusion/main/ro-crate-metadata.json"
+        }
+      ],
       "includedInDataCatalog": {
         "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       },
@@ -147,12 +163,20 @@
         "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./releases/tag/v0.1.0",
         "https://doi.org/10.5281/zenodo.22921209"
       ],
-      "subjectOf": {
-        "@type": "DigitalDocument",
-        "name": "Data Package descriptor",
-        "encodingFormat": "application/json",
-        "url": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/datapackage.json"
-      },
+      "subjectOf": [
+        {
+          "@type": "DigitalDocument",
+          "name": "Data Package descriptor",
+          "encodingFormat": "application/json",
+          "url": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/datapackage.json"
+        },
+        {
+          "@type": "DigitalDocument",
+          "name": "RO-Crate 1.2 metadata",
+          "encodingFormat": "application/ld+json",
+          "url": "https://raw.githubusercontent.com/selguetagodoy/atlas-desconexion-digital-chile./main/ro-crate-metadata.json"
+        }
+      ],
       "includedInDataCatalog": {
         "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       },
@@ -187,12 +211,20 @@
         "https://github.com/selguetagodoy/Ookla/releases/tag/v0.1.0",
         "https://doi.org/10.5281/zenodo.22921203"
       ],
-      "subjectOf": {
-        "@type": "DigitalDocument",
-        "name": "Data Package descriptor",
-        "encodingFormat": "application/json",
-        "url": "https://github.com/selguetagodoy/Ookla/blob/main/datapackage.json"
-      },
+      "subjectOf": [
+        {
+          "@type": "DigitalDocument",
+          "name": "Data Package descriptor",
+          "encodingFormat": "application/json",
+          "url": "https://github.com/selguetagodoy/Ookla/blob/main/datapackage.json"
+        },
+        {
+          "@type": "DigitalDocument",
+          "name": "RO-Crate 1.2 metadata",
+          "encodingFormat": "application/ld+json",
+          "url": "https://raw.githubusercontent.com/selguetagodoy/Ookla/main/ro-crate-metadata.json"
+        }
+      ],
       "includedInDataCatalog": {
         "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       },
@@ -226,12 +258,20 @@
         "https://github.com/selguetagodoy/chile-state-institutional-map-/releases/tag/v0.1.0",
         "https://doi.org/10.5281/zenodo.22921221"
       ],
-      "subjectOf": {
-        "@type": "DigitalDocument",
-        "name": "Data Package descriptor",
-        "encodingFormat": "application/json",
-        "url": "https://github.com/selguetagodoy/chile-state-institutional-map-/blob/main/datapackage.json"
-      },
+      "subjectOf": [
+        {
+          "@type": "DigitalDocument",
+          "name": "Data Package descriptor",
+          "encodingFormat": "application/json",
+          "url": "https://github.com/selguetagodoy/chile-state-institutional-map-/blob/main/datapackage.json"
+        },
+        {
+          "@type": "DigitalDocument",
+          "name": "RO-Crate 1.2 metadata",
+          "encodingFormat": "application/ld+json",
+          "url": "https://raw.githubusercontent.com/selguetagodoy/chile-state-institutional-map-/main/ro-crate-metadata.json"
+        }
+      ],
       "includedInDataCatalog": {
         "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       },
@@ -265,12 +305,20 @@
         "https://github.com/selguetagodoy/stakeholder_routes_Chile/releases/tag/v0.3.0",
         "https://doi.org/10.5281/zenodo.22921234"
       ],
-      "subjectOf": {
-        "@type": "DigitalDocument",
-        "name": "Data Package descriptor",
-        "encodingFormat": "application/json",
-        "url": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/datapackage.json"
-      },
+      "subjectOf": [
+        {
+          "@type": "DigitalDocument",
+          "name": "Data Package descriptor",
+          "encodingFormat": "application/json",
+          "url": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/datapackage.json"
+        },
+        {
+          "@type": "DigitalDocument",
+          "name": "RO-Crate 1.2 metadata",
+          "encodingFormat": "application/ld+json",
+          "url": "https://raw.githubusercontent.com/selguetagodoy/stakeholder_routes_Chile/main/ro-crate-metadata.json"
+        }
+      ],
       "includedInDataCatalog": {
         "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       },
