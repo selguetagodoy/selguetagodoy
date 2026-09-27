@@ -21,7 +21,7 @@ Trabajo en la intersección entre **regulación, infraestructura, inversión, te
 | **[Atlas de la Desconexión Digital de Chile](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html)** | Intensidad y escala territorial de la brecha digital; fragilidad y vulnerabilidad digital | [DOI 10.5281/zenodo.22921209](https://doi.org/10.5281/zenodo.22921209) |
 | **[Velocidades de Internet](https://selguetagodoy.github.io/dataset-velocidades-internet.html)** | Series Akamai y Ookla 2008–2026 para Chile, Colombia y comparadores | [DOI 10.5281/zenodo.22921203](https://doi.org/10.5281/zenodo.22921203) |
 | **[Chile State Institutional Map](https://selguetagodoy.github.io/dataset-chile-state-institutional-map.html)** | Estructura del Estado chileno para asuntos públicos, regulación y stakeholder mapping | [DOI 10.5281/zenodo.22921221](https://doi.org/10.5281/zenodo.22921221) |
-| **[Stakeholder Routes Chile](https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html)** | Rutas regulatorias y de inversión por actor, etapa, competencia y punto de decisión | [DOI 10.5281/zenodo.22921234](https://doi.org/10.5281/zenodo.22921234) |
+| **[Stakeholder Routes Chile](https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html)** | Rutas regulatorias y de inversión por actor, etapa, competencia y punto de decisión | GitHub v0.3.0 · [Zenodo v0.2.0 DOI](https://doi.org/10.5281/zenodo.22921234) |
 
 ### Qué distingue estos repositorios
 
@@ -32,6 +32,8 @@ Trabajo en la intersección entre **regulación, infraestructura, inversión, te
 - **Separación analítica:** observaciones, proxies, indicadores derivados y capas metodológicas se identifican explícitamente.
 
 [Explorar el catálogo completo de datos →](https://selguetagodoy.github.io/datos-abiertos.html) · [Índice de portafolio legible por máquinas →](research-portfolio.json)
+
+> **Versioning note:** Stakeholder Routes v0.3.0 is the current GitHub release; v0.2.0 remains the latest version with a confirmed version-specific Zenodo DOI in the public metadata checked on 2026-09-27.
 
 ---
 
