@@ -31,6 +31,21 @@ def main() -> int:
         repo = project["repository"]
         landing = project["landing"]
         version_doi = project["version_doi"]
+        expected_latest = project.get("latest_git_release")
+
+        if expected_latest:
+            owner_repo = repo.removeprefix("https://github.com/").rstrip("/")
+            api_url = f"https://api.github.com/repos/{owner_repo}/releases/latest"
+            try:
+                latest_release = json.loads(get(api_url))
+                checks += 1
+                actual_latest = latest_release.get("tag_name")
+                if actual_latest != expected_latest:
+                    failures.append(
+                        f"{pid}: latest GitHub release {actual_latest!r} != portfolio {expected_latest!r}"
+                    )
+            except (HTTPError, URLError, json.JSONDecodeError) as exc:
+                failures.append(f"{pid}: cannot verify latest GitHub release: {exc}")
 
         for filename in ("CITATION.cff", "codemeta.json", "CITATION.bib"):
             url = github_raw(repo, filename)
