@@ -74,6 +74,7 @@ def main() -> int:
         ".github/ISSUE_TEMPLATE/evidence-correction.yml",
         ".github/pull_request_template.md",
         "datapackage.json",
+        "ro-crate-metadata.json",
         "RELEASE_POLICY.md",
         "PUBLIC_RESOURCES.md",
         "README.md",
@@ -86,6 +87,7 @@ def main() -> int:
         version_doi = project["version_doi"]
         expected_latest = project.get("latest_git_release")
         expected_citable_date = project.get("citable_release_date")
+        package_resource_paths: set[str] = set()
 
         owner_repo = repo.removeprefix("https://github.com/").rstrip("/")
         tree_items: dict[str, dict] = {}
@@ -194,6 +196,11 @@ def main() -> int:
                 if not resources:
                     failures.append(f"{pid}: datapackage has no resources")
                     continue
+                package_resource_paths = {
+                    resource.get("path")
+                    for resource in resources
+                    if resource.get("path")
+                }
 
                 seen_names: set[str] = set()
                 for resource in resources:
@@ -236,6 +243,63 @@ def main() -> int:
                         failures.append(
                             f"{pid}: resource blob drift for {path}: "
                             f"{declared_sha} != {actual_sha}"
+                        )
+
+            elif filename == "ro-crate-metadata.json":
+                try:
+                    crate = json.loads(content)
+                except json.JSONDecodeError as exc:
+                    failures.append(f"{pid}: invalid ro-crate-metadata.json: {exc}")
+                    continue
+
+                if crate.get("@context") != "https://w3id.org/ro/crate/1.2/context":
+                    failures.append(f"{pid}: RO-Crate context is not 1.2")
+
+                graph = crate.get("@graph", [])
+                descriptor = next(
+                    (node for node in graph if node.get("@id") == "ro-crate-metadata.json"),
+                    None,
+                )
+                root = next((node for node in graph if node.get("@id") == "./"), None)
+
+                if not descriptor:
+                    failures.append(f"{pid}: RO-Crate metadata descriptor missing")
+                else:
+                    if descriptor.get("@type") != "CreativeWork":
+                        failures.append(f"{pid}: RO-Crate descriptor type mismatch")
+                    if (descriptor.get("about") or {}).get("@id") != "./":
+                        failures.append(f"{pid}: RO-Crate descriptor about mismatch")
+                    if (descriptor.get("conformsTo") or {}).get("@id") != "https://w3id.org/ro/crate/1.2":
+                        failures.append(f"{pid}: RO-Crate conformsTo mismatch")
+
+                if not root:
+                    failures.append(f"{pid}: RO-Crate root Dataset missing")
+                else:
+                    if root.get("@type") != "Dataset":
+                        failures.append(f"{pid}: RO-Crate root type mismatch")
+                    if root.get("name") != project.get("title"):
+                        failures.append(f"{pid}: RO-Crate title mismatch")
+                    if root.get("url") != landing:
+                        failures.append(f"{pid}: RO-Crate landing mismatch")
+                    if root.get("identifier") != version_doi:
+                        failures.append(f"{pid}: RO-Crate version DOI mismatch")
+                    expected_version = project.get("latest_citable_version", "").removeprefix("v")
+                    if root.get("version") != expected_version:
+                        failures.append(f"{pid}: RO-Crate citable version mismatch")
+                    if expected_citable_date and root.get("datePublished") != expected_citable_date:
+                        failures.append(f"{pid}: RO-Crate datePublished mismatch")
+                    creator_id = (root.get("creator") or {}).get("@id")
+                    if creator_id != "https://selguetagodoy.github.io/#person":
+                        failures.append(f"{pid}: RO-Crate creator mismatch")
+                    has_part = {
+                        item.get("@id")
+                        for item in root.get("hasPart", [])
+                        if isinstance(item, dict) and item.get("@id")
+                    }
+                    missing_payload = package_resource_paths - has_part
+                    if missing_payload:
+                        failures.append(
+                            f"{pid}: RO-Crate missing Data Package resources {sorted(missing_payload)}"
                         )
 
     print(f"Research metadata consistency: {len(payload['projects'])} projects · {checks} metadata/resource checks.")
