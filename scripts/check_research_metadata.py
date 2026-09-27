@@ -56,6 +56,7 @@ def main() -> int:
         "datapackage.json",
         "RELEASE_POLICY.md",
         "PUBLIC_RESOURCES.md",
+        "README.md",
     )
 
     for project in payload["projects"]:
@@ -138,6 +139,13 @@ def main() -> int:
                 doi = version_doi.removeprefix("https://doi.org/")
                 if doi not in content:
                     failures.append(f"{pid}: CITATION.bib missing version DOI")
+
+            elif filename == "README.md":
+                if expected_citable_date and expected_citable_date not in content:
+                    failures.append(f"{pid}: README missing citable release date")
+                doi = version_doi.removeprefix("https://doi.org/")
+                if doi not in content:
+                    failures.append(f"{pid}: README missing version DOI")
 
             elif filename == "datapackage.json":
                 try:
