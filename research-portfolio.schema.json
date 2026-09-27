@@ -7,7 +7,8 @@
     "schema_version",
     "author",
     "last_updated",
-    "projects"
+    "projects",
+    "interfaces"
   ],
   "properties": {
     "schema_version": {
@@ -149,6 +150,39 @@
         "additionalProperties": false
       },
       "uniqueItems": true
+    },
+    "interfaces": {
+      "type": "object",
+      "required": [
+        "research_overview",
+        "open_data_catalog",
+        "public_dataset_json",
+        "methodology",
+        "research_status"
+      ],
+      "properties": {
+        "research_overview": {
+          "type": "string",
+          "format": "uri"
+        },
+        "open_data_catalog": {
+          "type": "string",
+          "format": "uri"
+        },
+        "public_dataset_json": {
+          "type": "string",
+          "format": "uri"
+        },
+        "methodology": {
+          "type": "string",
+          "format": "uri"
+        },
+        "research_status": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false
