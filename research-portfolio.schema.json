@@ -63,7 +63,8 @@
           "latest_citable_release_url",
           "citation",
           "data_package",
-          "citable_release_date"
+          "citable_release_date",
+          "ro_crate"
         ],
         "properties": {
           "id": {
@@ -150,6 +151,10 @@
           "citable_release_date": {
             "type": "string",
             "format": "date"
+          },
+          "ro_crate": {
+            "type": "string",
+            "format": "uri"
           }
         },
         "additionalProperties": false
