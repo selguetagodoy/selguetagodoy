@@ -11,6 +11,36 @@
       ]
     },
     {
+      "@type": "DataCatalog",
+      "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog",
+      "name": "Datos abiertos de Sebastián Elgueta Godoy",
+      "url": "https://selguetagodoy.github.io/datos-abiertos.html",
+      "description": "Catálogo público de seis datasets citables sobre infraestructura digital, conectividad, inclusión digital, instituciones y asuntos públicos.",
+      "creator": {
+        "@id": "https://selguetagodoy.github.io/#person"
+      },
+      "dataset": [
+        {
+          "@id": "https://selguetagodoy.github.io/dataset-latin-america-digital-infrastructure.html#dataset"
+        },
+        {
+          "@id": "https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html#dataset"
+        },
+        {
+          "@id": "https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html#atlas"
+        },
+        {
+          "@id": "https://selguetagodoy.github.io/dataset-velocidades-internet.html#dataset"
+        },
+        {
+          "@id": "https://selguetagodoy.github.io/dataset-chile-state-institutional-map.html#dataset"
+        },
+        {
+          "@id": "https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html#dataset"
+        }
+      ]
+    },
+    {
       "@type": "Dataset",
       "@id": "https://selguetagodoy.github.io/dataset-latin-america-digital-infrastructure.html#dataset",
       "name": "Latin America Digital Infrastructure",
@@ -43,6 +73,9 @@
         "name": "Data Package descriptor",
         "encodingFormat": "application/json",
         "url": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/blob/main/datapackage.json"
+      },
+      "includedInDataCatalog": {
+        "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       }
     },
     {
@@ -78,6 +111,9 @@
         "name": "Data Package descriptor",
         "encodingFormat": "application/json",
         "url": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/blob/main/datapackage.json"
+      },
+      "includedInDataCatalog": {
+        "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       }
     },
     {
@@ -112,6 +148,9 @@
         "name": "Data Package descriptor",
         "encodingFormat": "application/json",
         "url": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/datapackage.json"
+      },
+      "includedInDataCatalog": {
+        "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       }
     },
     {
@@ -147,6 +186,9 @@
         "name": "Data Package descriptor",
         "encodingFormat": "application/json",
         "url": "https://github.com/selguetagodoy/Ookla/blob/main/datapackage.json"
+      },
+      "includedInDataCatalog": {
+        "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       }
     },
     {
@@ -181,6 +223,9 @@
         "name": "Data Package descriptor",
         "encodingFormat": "application/json",
         "url": "https://github.com/selguetagodoy/chile-state-institutional-map-/blob/main/datapackage.json"
+      },
+      "includedInDataCatalog": {
+        "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       }
     },
     {
@@ -215,6 +260,9 @@
         "name": "Data Package descriptor",
         "encodingFormat": "application/json",
         "url": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/datapackage.json"
+      },
+      "includedInDataCatalog": {
+        "@id": "https://selguetagodoy.github.io/datos-abiertos.html#catalog"
       }
     }
   ]
