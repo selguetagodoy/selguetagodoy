@@ -152,6 +152,11 @@ def main() -> int:
                     failures.append(f"{pid}: CodeMeta repository mismatch")
                 if meta.get("identifier") != version_doi:
                     failures.append(f"{pid}: CodeMeta version DOI mismatch")
+                if expected_citable_date and meta.get("datePublished") != expected_citable_date:
+                    failures.append(f"{pid}: CodeMeta datePublished mismatch")
+                related_links = set(meta.get("relatedLink", []))
+                if project.get("concept_doi") not in related_links:
+                    failures.append(f"{pid}: CodeMeta missing concept DOI in relatedLink")
 
             elif filename == "CITATION.bib":
                 if landing not in content:
