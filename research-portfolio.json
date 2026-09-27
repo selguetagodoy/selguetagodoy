@@ -36,7 +36,8 @@
         "cff": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/blob/main/CITATION.cff",
         "bibtex": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/blob/main/CITATION.bib",
         "codemeta": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/blob/main/codemeta.json"
-      }
+      },
+      "data_package": "https://github.com/selguetagodoy/latin-america-digital-infrastructure/blob/main/datapackage.json"
     },
     {
       "id": "chile-digital-inclusion",
@@ -66,7 +67,8 @@
         "cff": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/blob/main/CITATION.cff",
         "bibtex": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/blob/main/CITATION.bib",
         "codemeta": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/blob/main/codemeta.json"
-      }
+      },
+      "data_package": "https://github.com/selguetagodoy/Chile-Digital-Inclusion/blob/main/datapackage.json"
     },
     {
       "id": "atlas-desconexion-digital-chile",
@@ -95,7 +97,8 @@
         "cff": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/CITATION.cff",
         "bibtex": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/CITATION.bib",
         "codemeta": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/codemeta.json"
-      }
+      },
+      "data_package": "https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/datapackage.json"
     },
     {
       "id": "internet-speeds",
@@ -125,7 +128,8 @@
         "cff": "https://github.com/selguetagodoy/Ookla/blob/main/CITATION.cff",
         "bibtex": "https://github.com/selguetagodoy/Ookla/blob/main/CITATION.bib",
         "codemeta": "https://github.com/selguetagodoy/Ookla/blob/main/codemeta.json"
-      }
+      },
+      "data_package": "https://github.com/selguetagodoy/Ookla/blob/main/datapackage.json"
     },
     {
       "id": "chile-state-institutional-map",
@@ -154,7 +158,8 @@
         "cff": "https://github.com/selguetagodoy/chile-state-institutional-map-/blob/main/CITATION.cff",
         "bibtex": "https://github.com/selguetagodoy/chile-state-institutional-map-/blob/main/CITATION.bib",
         "codemeta": "https://github.com/selguetagodoy/chile-state-institutional-map-/blob/main/codemeta.json"
-      }
+      },
+      "data_package": "https://github.com/selguetagodoy/chile-state-institutional-map-/blob/main/datapackage.json"
     },
     {
       "id": "stakeholder-routes-chile",
@@ -183,7 +188,8 @@
         "cff": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/CITATION.cff",
         "bibtex": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/CITATION.bib",
         "codemeta": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/codemeta.json"
-      }
+      },
+      "data_package": "https://github.com/selguetagodoy/stakeholder_routes_Chile/blob/main/datapackage.json"
     }
   ]
 }
