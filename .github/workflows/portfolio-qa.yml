@@ -1,0 +1,32 @@
+name: Research Portfolio QA
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "research-portfolio.json"
+      - "scripts/check_portfolio.py"
+      - ".github/workflows/portfolio-qa.yml"
+  schedule:
+    - cron: "20 10 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: research-portfolio-qa
+  cancel-in-progress: true
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - name: Validate research portfolio
+        run: python scripts/check_portfolio.py
