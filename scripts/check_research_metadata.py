@@ -26,6 +26,15 @@ def main() -> int:
     failures: list[str] = []
     checks = 0
 
+    required_artifacts = (
+        "SOURCE_OF_TRUTH.md",
+        "CITATION.cff",
+        "CITATION.bib",
+        "codemeta.json",
+        "NOTICE.md",
+        "CHANGELOG.md",
+    )
+
     for project in payload["projects"]:
         pid = project["id"]
         repo = project["repository"]
@@ -47,13 +56,16 @@ def main() -> int:
             except (HTTPError, URLError, json.JSONDecodeError) as exc:
                 failures.append(f"{pid}: cannot verify latest GitHub release: {exc}")
 
-        for filename in ("CITATION.cff", "codemeta.json", "CITATION.bib"):
+        for filename in required_artifacts:
             url = github_raw(repo, filename)
             try:
                 content = get(url)
                 checks += 1
             except (HTTPError, URLError, UnicodeDecodeError) as exc:
                 failures.append(f"{pid}: cannot read {filename}: {exc}")
+                continue
+
+            if filename in {"SOURCE_OF_TRUTH.md", "NOTICE.md", "CHANGELOG.md"}:
                 continue
 
             if filename == "CITATION.cff":
