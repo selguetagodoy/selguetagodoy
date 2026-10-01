@@ -10,6 +10,12 @@ Trabajo en la intersección entre **regulación, infraestructura, inversión, te
 
 [**Sitio oficial**](https://selguetagodoy.github.io/) · [**Investigación**](https://selguetagodoy.github.io/investigacion.html) · [**Datos abiertos**](https://selguetagodoy.github.io/datos-abiertos.html) · [**Publicaciones**](https://selguetagodoy.github.io/publicaciones.html) · [**LinkedIn**](https://cl.linkedin.com/in/sebastian-elgueta-godoy) · [**Academia.edu**](https://uai.academia.edu/ElguetaGodoy) · [**ResearchGate**](https://www.researchgate.net/profile/Sebastian-Elgueta-Godoy)
 
+### Referencias externas verificadas
+
+- **COTEL · Atlas de la Desconexión Digital:** [agenda oficial del Congreso COTEL 2026](https://cotel.cl/congreso/agenda/) · [nota de autoría](https://cotel.cl/la-nueva-brecha-digital-combina-uso-dispositivos-y-presupuesto/) · [ficha del Atlas](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html)
+- **CIPER · Telecomunicaciones:** [El próximo paso del 5G](https://www.ciperchile.cl/2026/07/10/el-proximo-paso-del-5g/)
+- **Identidad y referencias públicas:** [Sebastián Elgueta Godoy en la web](https://selguetagodoy.github.io/en-la-web.html)
+
 ---
 
 ## Investigación y datasets
@@ -67,7 +73,7 @@ Investigación sobre acceso, calidad de conexión, disponibilidad de dispositivo
 
 ### Análisis público
 
-[Publicaciones de LinkedIn](https://selguetagodoy.github.io/linkedin-publicaciones.html) · [Telecomunicaciones](https://selguetagodoy.github.io/telecomunicaciones.html) · [Infraestructura digital](https://selguetagodoy.github.io/infraestructura-digital.html) · [Asuntos públicos](https://selguetagodoy.github.io/asuntos-publicos.html) · [Inclusión digital](https://selguetagodoy.github.io/inclusion-digital.html)
+[El próximo paso del 5G — CIPER](https://www.ciperchile.cl/2026/07/10/el-proximo-paso-del-5g/) · [Publicaciones de LinkedIn](https://selguetagodoy.github.io/linkedin-publicaciones.html) · [Telecomunicaciones](https://selguetagodoy.github.io/telecomunicaciones.html) · [Infraestructura digital](https://selguetagodoy.github.io/infraestructura-digital.html) · [Asuntos públicos](https://selguetagodoy.github.io/asuntos-publicos.html) · [Inclusión digital](https://selguetagodoy.github.io/inclusion-digital.html)
 
 ---
 
