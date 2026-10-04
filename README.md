@@ -18,6 +18,14 @@ Trabajo en la intersección entre **regulación, infraestructura, inversión, te
 
 ---
 
+## Data centers · Chile 2026
+
+**[Data Centers en Chile 2026](https://selguetagodoy.github.io/data-centers-chile-2026.html)** — radiografía de capacidad, inventario comercial, pipeline y energía con boundaries explícitos y fuentes públicas.
+
+[Benchmark internacional · 10 hubs](https://selguetagodoy.github.io/benchmark-data-centers-2026.html) · [Infraestructura digital](https://selguetagodoy.github.io/infraestructura-digital.html) · [Latin America Digital Infrastructure](https://selguetagodoy.github.io/dataset-latin-america-digital-infrastructure.html)
+
+---
+
 ## Investigación y datasets
 
 | Proyecto | Qué estudia | Versión citable |
