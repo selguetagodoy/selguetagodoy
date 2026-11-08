@@ -2,11 +2,13 @@
 
 ![Sebastián Elgueta Godoy — Public Affairs, Digital Infrastructure and Research](assets/profile-header.svg)
 
-**Sociólogo · Asuntos públicos · Políticas públicas · Infraestructura digital · Telecomunicaciones · Chile y América Latina**
+**Sociólogo · Doble magíster · Asuntos públicos · Regulación · Investigación aplicada · Chile y América Latina**
 
 [![Research Portfolio QA](https://github.com/selguetagodoy/selguetagodoy/actions/workflows/portfolio-qa.yml/badge.svg)](https://github.com/selguetagodoy/selguetagodoy/actions/workflows/portfolio-qa.yml)
 
-Trabajo en la intersección entre **regulación, infraestructura, inversión, territorio y datos**. Desarrollo investigación aplicada y asesoría estratégica sobre data centers, telecomunicaciones, conectividad, inclusión digital, institucionalidad y condiciones para el desarrollo de infraestructura.
+Soy sociólogo, con magísteres en **Gestión de Proyectos Urbano-Regionales** y en **Comunicación Política y Asuntos Públicos**. Mi trayectoria combina trabajo en **SUBTEL, el Senado de Chile y FOSIS**, consultoría en **Prospectiva Public Affairs LATAM** e investigación aplicada.
+
+Trabajo en la intersección entre **Estado, mercados y sociedad**, integrando análisis político-institucional, regulación, inversión, infraestructura, territorio y datos. Mis ámbitos de trabajo incluyen **tecnología y telecomunicaciones, energía, salud, turismo y desarrollo territorial**. Este perfil reúne exclusivamente proyectos y fuentes públicas; no incorpora información reservada de clientes.
 
 [**Sitio oficial**](https://selguetagodoy.github.io/) · [**Investigación**](https://selguetagodoy.github.io/investigacion.html) · [**Datos abiertos**](https://selguetagodoy.github.io/datos-abiertos.html) · [**Publicaciones**](https://selguetagodoy.github.io/publicaciones.html) · [**LinkedIn**](https://cl.linkedin.com/in/sebastian-elgueta-godoy) · [**Academia.edu**](https://uai.academia.edu/ElguetaGodoy) · [**ResearchGate**](https://www.researchgate.net/profile/Sebastian-Elgueta-Godoy)
 
@@ -35,7 +37,9 @@ Trabajo en la intersección entre **regulación, infraestructura, inversión, te
 | **[Atlas de la Desconexión Digital de Chile](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html)** | Intensidad y escala territorial de la brecha digital; fragilidad y vulnerabilidad digital | [DOI 10.5281/zenodo.22921209](https://doi.org/10.5281/zenodo.22921209) |
 | **[Velocidades de Internet](https://selguetagodoy.github.io/dataset-velocidades-internet.html)** | Series Akamai y Ookla 2008–2026 para Chile, Colombia y comparadores | [DOI 10.5281/zenodo.22921203](https://doi.org/10.5281/zenodo.22921203) |
 | **[Chile State Institutional Map](https://selguetagodoy.github.io/dataset-chile-state-institutional-map.html)** | Estructura del Estado chileno para asuntos públicos, regulación y stakeholder mapping | [DOI 10.5281/zenodo.22921221](https://doi.org/10.5281/zenodo.22921221) |
-| **[Stakeholder Routes Chile](https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html)** | Rutas regulatorias y de inversión por actor, etapa, competencia y punto de decisión | GitHub v0.3.0 · [Zenodo v0.2.0 DOI](https://doi.org/10.5281/zenodo.22921234) |
+| **[Stakeholder Routes Chile](https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html)** | Rutas regulatorias y de inversión por actor, etapa, competencia y punto de decisión | [Releases GitHub](https://github.com/selguetagodoy/stakeholder_routes_Chile/releases) · [DOI de v0.2.0](https://doi.org/10.5281/zenodo.22921234) |
+
+**Herramienta interactiva vinculada al Atlas (no es un dataset adicional):** [Explorar el visualizador comunal](https://atlas-visualizador-cotel.vercel.app/) · [Repositorio de la interfaz](https://github.com/selguetagodoy/atlas-visualizador-cotel) · [Metodología y límites de publicación](https://github.com/selguetagodoy/atlas-desconexion-digital-chile./blob/main/SOURCE_OF_TRUTH.md).
 
 ### Qué distingue estos repositorios
 
@@ -47,7 +51,7 @@ Trabajo en la intersección entre **regulación, infraestructura, inversión, te
 
 [Explorar el catálogo completo de datos →](https://selguetagodoy.github.io/datos-abiertos.html) · [Estado de investigación →](https://selguetagodoy.github.io/estado-investigacion.html) · [Metodología y reproducibilidad →](https://selguetagodoy.github.io/metodologia-reproducibilidad.html) · [Portfolio JSON →](https://selguetagodoy.github.io/research-portfolio.json) · [JSON-LD →](research-portfolio.jsonld) · [Schema →](https://selguetagodoy.github.io/research-portfolio.schema.json)
 
-> **Versioning note:** Stakeholder Routes v0.3.0 is the current GitHub release; v0.2.0 remains the latest version with a confirmed version-specific Zenodo DOI in the public metadata checked on 2026-09-27.
+> **Nota de citación:** las versiones de GitHub y los depósitos de Zenodo pueden tener calendarios diferentes. Antes de citar un release de Stakeholder Routes, comprobar su [historial de versiones](https://github.com/selguetagodoy/stakeholder_routes_Chile/releases) y el [registro archivado en Zenodo](https://doi.org/10.5281/zenodo.22921233).
 
 ---
 
@@ -87,9 +91,9 @@ Investigación sobre acceso, calidad de conexión, disponibilidad de dispositivo
 
 ## Trayectoria
 
-Tengo más de una década de experiencia en **sector público, asesoría legislativa y consultoría estratégica**, con trabajo en telecomunicaciones, regulación, infraestructura, tecnología, políticas públicas y desarrollo territorial.
+Cuento con más de **13 años de experiencia** en **asuntos públicos, asesoría legislativa, regulación, articulación público-privada e investigación aplicada**. He trabajado en SUBTEL, el Senado de Chile y FOSIS, y actualmente desarrollo consultoría estratégica con Prospectiva Public Affairs LATAM.
 
-Mi formación incluye **Sociología**, un **Magíster en Gestión de Proyectos Urbanos Regionales** y un **Magíster en Comunicación Política y Asuntos Públicos**.
+Soy **sociólogo**, magíster en **Gestión de Proyectos Urbano-Regionales** y magíster en **Comunicación Política y Asuntos Públicos**. Integro conocimiento institucional y territorial con análisis de datos y evaluación de políticas públicas.
 
 El detalle de experiencia, formación, publicaciones y presencia pública está concentrado en mi [sitio oficial](https://selguetagodoy.github.io/).
 
@@ -97,7 +101,7 @@ El detalle de experiencia, formación, publicaciones y presencia pública está 
 
 ## Research profile
 
-Applied research on **public affairs, digital infrastructure, data centers, telecommunications, digital inclusion and territorial development in Chile and Latin America**. My repositories combine public-source evidence, comparative analysis, documented provenance and citable releases.
+**Sociologist with two Master's degrees** (Urban and Regional Project Management; Political Communication and Public Affairs). Public-affairs consultant with experience across Chilean government, the Senate and strategic advisory projects. My work covers **regulated markets, public policy, digital infrastructure, data centers, telecommunications, digital inclusion and territorial development across Chile and Latin America**. This portfolio contains public-source research, documented provenance and citable outputs; client-confidential materials are excluded.
 
 **Languages:** Spanish · English · Portuguese (basic)
 
