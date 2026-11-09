@@ -12,6 +12,8 @@ Trabajo en la intersección entre **Estado, mercados y sociedad**, integrando an
 
 [**Sitio oficial**](https://selguetagodoy.github.io/) · [**Investigación**](https://selguetagodoy.github.io/investigacion.html) · [**Datos abiertos**](https://selguetagodoy.github.io/datos-abiertos.html) · [**Publicaciones**](https://selguetagodoy.github.io/publicaciones.html) · [**LinkedIn**](https://cl.linkedin.com/in/sebastian-elgueta-godoy) · [**Academia.edu**](https://uai.academia.edu/ElguetaGodoy) · [**ResearchGate**](https://www.researchgate.net/profile/Sebastian-Elgueta-Godoy)
 
+**Perfil profesional y colaboraciones:** [Experiencia](https://selguetagodoy.github.io/experiencia.html) · [Formación y ambos magísteres](https://selguetagodoy.github.io/formacion.html) · [Professional biography in English](https://selguetagodoy.github.io/bio-en.html) · [Contacto](https://selguetagodoy.github.io/contacto.html)
+
 ### Referencias externas verificadas
 
 - **COTEL · Atlas de la Desconexión Digital:** [agenda oficial del Congreso COTEL 2026](https://cotel.cl/congreso/agenda/) · [nota de autoría](https://cotel.cl/la-nueva-brecha-digital-combina-uso-dispositivos-y-presupuesto/) · [ficha del Atlas](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html)
