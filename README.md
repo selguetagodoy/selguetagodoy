@@ -8,6 +8,8 @@
 
 [**Portafolio profesional**](https://selguetagodoy.github.io/) &nbsp;·&nbsp; [**Laboratorio digital**](https://selguetagodoy.github.io/laboratorio.html) &nbsp;·&nbsp; [**Investigación**](https://selguetagodoy.github.io/investigacion.html) &nbsp;·&nbsp; [**Datos abiertos**](https://selguetagodoy.github.io/datos-abiertos.html) &nbsp;·&nbsp; [**English bio**](https://selguetagodoy.github.io/bio-en.html)
 
+[![Research Portfolio QA](https://github.com/selguetagodoy/selguetagodoy/actions/workflows/portfolio-qa.yml/badge.svg)](https://github.com/selguetagodoy/selguetagodoy/actions/workflows/portfolio-qa.yml)
+
 </div>
 
 ---
@@ -20,42 +22,42 @@ Este GitHub reúne **investigaciones abiertas, aplicaciones interactivas y recur
 
 ## Proyectos destacados · Selected work
 
-<table>
-<tr>
-<td width="33%" valign="top">
-<a href="https://atlas-visualizador-cotel.vercel.app/"><img src="https://selguetagodoy.github.io/assets/lab-atlas.jpg" alt="Vista del Atlas de la Desconexión Digital" width="100%"></a>
-<strong>01 — Atlas de la Desconexión Digital</strong><br>
-<sub>Inclusión digital · Chile · Territorio</sub><br><br>
-Visualizador comunal de conectividad y vulnerabilidad digital.<br><br>
-<a href="https://atlas-visualizador-cotel.vercel.app/">Explorar ↗</a> · <a href="https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html">Estudio</a> · <a href="https://github.com/selguetagodoy/atlas-visualizador-cotel">Código</a>
-</td>
-<td width="33%" valign="top">
-<a href="https://selguetagodoy.github.io/dashboard-data-centers-2026.html"><img src="https://selguetagodoy.github.io/assets/lab-datacenters.jpg" alt="Vista del panel de data centers" width="100%"></a>
-<strong>02 — Infraestructura digital</strong><br>
-<sub>Data centers · Energía · Inversión</sub><br><br>
-Benchmark internacional de 10 hubs y análisis de competitividad.<br><br>
-<a href="https://selguetagodoy.github.io/dashboard-data-centers-2026.html">Dashboard ↗</a> · <a href="https://selguetagodoy.github.io/benchmark-data-centers-2026.html">Estudio</a> · <a href="https://selguetagodoy.github.io/metodologia-reproducibilidad.html">Método</a>
-</td>
-<td width="33%" valign="top">
-<a href="https://selguetagodoy.github.io/rindelab/"><img src="https://selguetagodoy.github.io/assets/lab-rindelab.jpg" alt="Vista de RINDELAB" width="100%"></a>
-<strong>03 — RINDELAB</strong><br>
-<sub>Movilidad · Eficiencia energética</sub><br><br>
-Comparador de vehículos y costos de energía basado en fuentes verificables.<br><br>
-<a href="https://selguetagodoy.github.io/rindelab/">Usar aplicación ↗</a> · <a href="https://github.com/selguetagodoy/selguetagodoy.github.io/tree/main/rindelab">Código</a> · <a href="https://selguetagodoy.github.io/rindelab/metodologia.html">Metodología</a>
-</td>
-</tr>
-</table>
+### 01 / Atlas de la Desconexión Digital
+**Inclusión digital · Territorio · Chile**
+
+<a href="https://atlas-visualizador-cotel.vercel.app/"><img src="https://selguetagodoy.github.io/assets/lab-atlas.jpg" width="760" alt="Vista del Atlas de la Desconexión Digital, con mapas e indicadores territoriales"></a>
+
+Visualizador comunal para explorar conectividad y vulnerabilidad digital.
+
+[**Explorar visualizador ↗**](https://atlas-visualizador-cotel.vercel.app/) · [Estudio y metodología](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html) · [Repositorio](https://github.com/selguetagodoy/atlas-visualizador-cotel)
+
+### 02 / Data centers e infraestructura digital
+**Energía · Regulación · Inversión**
+
+<a href="https://selguetagodoy.github.io/dashboard-data-centers-2026.html"><img src="https://selguetagodoy.github.io/assets/lab-datacenters.jpg" width="760" alt="Vista del benchmark internacional de data centers"></a>
+
+Panel comparativo de diez hubs con metodología y límites de cada indicador documentados.
+
+[**Explorar dashboard ↗**](https://selguetagodoy.github.io/dashboard-data-centers-2026.html) · [Benchmark internacional](https://selguetagodoy.github.io/benchmark-data-centers-2026.html) · [Metodología](https://selguetagodoy.github.io/metodologia-reproducibilidad.html)
+
+### 03 / RINDELAB
+**Movilidad · Eficiencia energética · Chile**
+
+<a href="https://selguetagodoy.github.io/rindelab/"><img src="https://selguetagodoy.github.io/assets/lab-rindelab.jpg" width="760" alt="Vista del comparador RINDELAB de rendimientos y costos energéticos vehiculares"></a>
+
+Comparación de vehículos y costos energéticos con datos oficiales y supuestos explícitos.
+
+[**Abrir RINDELAB ↗**](https://selguetagodoy.github.io/rindelab/) · [Código y documentación](https://github.com/selguetagodoy/selguetagodoy.github.io/tree/main/rindelab) · [Fuentes y metodología](https://selguetagodoy.github.io/rindelab/metodologia.html)
+
 
 ## Investigación y datasets citables
 
-| Línea de investigación | Cobertura | Publicación |
-|:--|:--|:--|
-| [Latin America Digital Infrastructure](https://selguetagodoy.github.io/dataset-latin-america-digital-infrastructure.html) | Data centers, cloud, IXPs, energía y marco institucional en ocho mercados | [DOI 10.5281/zenodo.22921175](https://doi.org/10.5281/zenodo.22921175) |
-| [Chile Digital Inclusion](https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html) | Inclusión digital e inequidades en 346 comunas | [DOI 10.5281/zenodo.22921191](https://doi.org/10.5281/zenodo.22921191) |
-| [Atlas de la Desconexión Digital](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html) | Brecha digital, fragilidad y vulnerabilidad territorial | [DOI 10.5281/zenodo.22921209](https://doi.org/10.5281/zenodo.22921209) |
-| [Velocidades de Internet](https://selguetagodoy.github.io/dataset-velocidades-internet.html) | Akamai y Ookla, Chile y comparadores | [DOI 10.5281/zenodo.22921203](https://doi.org/10.5281/zenodo.22921203) |
-| [Chile State Institutional Map](https://selguetagodoy.github.io/dataset-chile-state-institutional-map.html) | Organismos del Estado y competencias | [DOI 10.5281/zenodo.22921221](https://doi.org/10.5281/zenodo.22921221) |
-| [Stakeholder Routes Chile](https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html) | Actores, competencias y rutas de decisión pública | [DOI v0.2.0](https://doi.org/10.5281/zenodo.22921234) |
+- **[Latin America Digital Infrastructure](https://selguetagodoy.github.io/dataset-latin-america-digital-infrastructure.html)** — infraestructura digital, cloud, IXPs y energía en ocho mercados. [DOI 10.5281/zenodo.22921175](https://doi.org/10.5281/zenodo.22921175)
+- **[Chile Digital Inclusion](https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html)** — inclusión digital y desigualdades territoriales en 346 comunas. [DOI 10.5281/zenodo.22921191](https://doi.org/10.5281/zenodo.22921191)
+- **[Atlas de la Desconexión Digital](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html)** — vulnerabilidad y fragilidad digital. [DOI 10.5281/zenodo.22921209](https://doi.org/10.5281/zenodo.22921209)
+- **[Velocidades de Internet](https://selguetagodoy.github.io/dataset-velocidades-internet.html)** — series de conectividad de Chile y comparadores. [DOI 10.5281/zenodo.22921203](https://doi.org/10.5281/zenodo.22921203)
+- **[Chile State Institutional Map](https://selguetagodoy.github.io/dataset-chile-state-institutional-map.html)** — organismos y competencias del Estado. [DOI 10.5281/zenodo.22921221](https://doi.org/10.5281/zenodo.22921221)
+- **[Stakeholder Routes Chile](https://selguetagodoy.github.io/dataset-stakeholder-routes-chile.html)** — actores y rutas de decisión pública. [DOI v0.2.0](https://doi.org/10.5281/zenodo.22921234)
 
 **Principios de trabajo:** fuentes identificadas · universos comparables · datos faltantes explícitos · reproducibilidad · versiones citables. La fecha de los depósitos en Zenodo y la de los releases en GitHub puede diferir; las citas deben corresponder a la versión consultada.
 
